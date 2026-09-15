@@ -36,11 +36,11 @@ Consolidarse como la plataforma tecnológica de referencia en América Latina pa
 
 | Foto | Apellido y Nombre | Rol / Perfil |
 | :--- | :--- | :--- |
-| | Italo Raul Pancorbo Amorós | Leader Software Engineer / Full Stack Developer |
-| | Sebastian Conde | Backend Engineer / IoT Data Architect |
-| | Sebastian Diaz | Frontend Engineer / UX Designer |
-| | [Compañero 4] | QA & DevOps Engineer |
-| | Camila | Product Owner / Business Analyst |
+| | Italo Raul Pancorbo Amorós | |
+| | Sebastian Conde |  |
+| | Sebastian Diaz |  |
+| | [Compañero 4] |  |
+| | Camila Cabrera |  |
 
 ---
 
