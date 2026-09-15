@@ -445,7 +445,7 @@
 
 Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de Fiscalización) se elaboró el User Persona Gisela Chavez. Se consideraron factores como su rol de Directora de Operaciones en una consultora ambiental, su vasta experiencia liderando auditorías y fiscalizaciones de proyectos de transporte a nivel nacional, y su necesidad de auditar el cumplimiento regulatorio de múltiples frentes de obra de forma transparente e imparcial. Sus principales frustraciones se relacionan con la falta de visibilidad centralizada por la dispersión de informes fragmentados provenientes de distintas constructoras, la pérdida de tiempo administrativo al navegar entre correos o reportes estáticos y la fricción que se genera al existir discrepancias de datos sobre posibles incumplimientos ambientales. Asimismo, se tomó en cuenta su alto nivel de competencias en gestión y planificación, y su necesidad de una plataforma SaaS que permita unificar los datos de cumplimiento en tiempo real, automatizar la generación de reportes oficiales respaldados por datos inalterables y priorizar la atención de auditorías mediante métricas claras de riesgo.
 
-<img src="assets/imgages/chapter2/GiselaUserPerson.jpeg" alt="Seg2UserPerson" >
+![User Persona - Gisela Chavez](assets/images/chapter2/GiselaUserPerson.jpeg)
 
 ### 2.3.2. User Task Matrix
 <a id="2-3-2-user-task-matrix"></a>
@@ -502,7 +502,7 @@ El recorrido de Gisela abarca una perspectiva directiva y de fiscalización macr
 
 El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 3. Debido a la asimetría de información y a la falta de una plataforma centralizada, recopilar y unificar los reportes de múltiples proyectos al mismo tiempo le demanda cruzar correos y llamadas de forma constante. Esto la expone a demoras operativas y a un alto riesgo reputacional si algún problema ambiental pasa desapercibido por la falta de visibilidad en tiempo real.
 
-<img src="assets/imgages/chapter2/GiselaJourneyMap.jpeg" alt="Seg2JourneyMap" >
+![User Persona - Gisela Chavez](assets/images/chapter2/GiselaJourneyMap.jpeg)
 
 ### 2.3.4. Empathy Mapping
 <a id="2-3-4-empathy-mapping"></a>
@@ -515,7 +515,7 @@ El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 
 
 En este mapa se analizó a Gisela Chávez, una jefa de supervisión ambiental y consultora senior encargada de fiscalizar, consolidar y auditar múltiples proyectos viales a nivel institucional. Ella piensa que la consultora está expuesta a sanciones graves debido a la asimetría de datos de los contratistas y se siente abrumada por la falta de una vista unificada y la pesada carga de análisis manual. Escucha exigencias rigurosas de cumplimiento normativo por parte de entidades como el MTC y el SENACE, presiones directas de la alta gerencia sobre plazos fatales y excusas recurrentes de los ingenieros de campo sobre retrasos en el envío de información. En su entorno observa una oficina corporativa digitalizada pero caótica, un laberinto de bandejas de correo repleta de archivos estáticos (PDFs y Word) enviadas fuera de plazo y hojas de cálculo en Excel llenas de pestañas interminables y fórmulas complejas. Gisela suele expresar la necesidad de contar con una plataforma centralizada que permita monitorear todos los frentes en tiempo real y manifiesta su frustración porque la información de campo siempre llega tarde o incompleta. En su actuar diario envía correos masivos de seguimiento, pasa horas intentando unificar bases de datos fragmentadas enviadas por terceros y trabaja hasta altas horas de la noche redactando los expedientes regulatorios oficiales. Su dolor principal es la ausencia de visibilidad centralizada en tiempo real, la alta dependencia de reportes manuales y el riesgo de cometer errores humanos al cruzar datos, mientras que su ganancia esperada es disponer de un panel gerencial (dashboard) multisitio que unifique la información con datos trazables e inalterables, automatice la generación de informes oficiales y le otorgue mayor control estratégico y tranquilidad.
 
-<img src = "assets/images/chapter2/GiselaImpactMap.jpeg" alt = "Seg2ImpactMap">
+![User Persona - Gisela Chavez](assets/images/chapter2/GiselaEmpathyMap.jpeg)
 
 ## 2.4. Big Picture EventStorming
 <a id="2-4-big-picture-eventstorming"></a>
