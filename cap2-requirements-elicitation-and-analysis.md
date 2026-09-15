@@ -96,42 +96,53 @@
 
 #### Preguntas principales:
 
-1. ¿Cómo es tu proceso actual para registrar los indicadores ambientales (aire, ruido, agua) en obra?
-2. ¿Qué herramientas usas hoy para ese registro (Excel, papel, algún software, apps)?
-3. Cuéntame sobre la última vez que detectaste un posible incumplimiento normativo: ¿cómo te enteraste y qué pasos siguieron después?
-4. ¿Cuánto tiempo suele pasar entre que ocurre una superación de un límite normativo y el momento en que alguien se entera de ella?
-5. Cuéntame cómo preparas la documentación cuando viene una fiscalización o auditoría ambiental del MTC u OEFA.
-6. ¿Qué tan seguido revisas el estado ambiental de tu(s) proyecto(s) y qué necesitas ver para sentir que tienes control de la situación?
-7. ¿Qué parte de ese proceso de auditoría te consume más tiempo o te genera más estrés?
-8. ¿Ha pasado alguna vez que un incumplimiento se detectara tarde? ¿Qué consecuencias tuvo?
-9. Si pudieras cambiar una sola cosa de cómo monitoreas el cumplimiento ambiental hoy, ¿qué cambiarías?
-10. ¿Cómo te comunicas con tu equipo de campo cuando necesitas que registren una medición o atiendan una incidencia de mitigación?
+1. Buen día, ¿podría comentarme su nombre, edad y el puesto que desempeña dentro de la constructora?
 
-Preguntas complementarias:
+2. ¿Cuántos frentes de obra o tramos viales tienen actualmente en ejecución bajo su cargo?
 
-11. ¿Quién más en tu organización necesita ver esta información y con qué frecuencia se la compartes?
-12. ¿Has usado o probado alguna herramienta digital o sensores para esto antes? ¿Qué te gustó o no te gustó de ella?
-13. ¿Desde qué dispositivo sueles trabajar cuando estás en campo (celular, tablet, laptop) y qué tan buena es la conectividad en esos tramos viales?
+3. ¿Cómo realizan actualmente el registro y seguimiento de los indicadores ambientales (aire, ruido, agua) en los frentes de trabajo?
+
+4. ¿Qué herramientas utilizan el equipo de campo y la oficina central para compartir las mediciones, fotografías de evidencias y reportes ambientales?
+
+5. Al ejecutar y gestionar varios frentes/tramos viales simultáneamente, ¿qué tan complicado resulta mantener organizada y al día toda la documentación e historial ambiental?
+
+6. ¿Qué ocurre o qué protocolo siguen cuando en campo detectan que un indicador (como polvo o ruido) está cerca de superar o ya superó el límite del ECA/LMP?
+
+7. Tras detectar una incidencia o recibir una observación de la supervisión, ¿cómo asignan y hacen el seguimiento a las acciones de mitigación en campo?
+
+8. ¿Qué dificultades enfrentan al momento de consolidar la información para responder a las auditorías de la supervisión o ante entidades fiscalizadoras (ej. OEFA / MTC)?
+
+9. ¿Cuál considera que es la principal dificultad que enfrentan como constructora al gestionar la parte ambiental en múltiples tramos a la vez?
+
+10. Si pudiera cambiar una sola cosa del proceso con el que gestionan las contingencias ambientales en obra, ¿qué cambiaría?
+
+11. ¿Considera útil contar con alertas telemáticas o sensores que les avisen automáticamente antes de sobrepasar los límites normativos?
+
+12. Finalmente, ¿qué información o indicador considera crítico tener a la mano para garantizar que la obra no sea paralizada ni sancionada ambientalmente?
 
 ### Segmento 2: Empresas Supervisoras y Consultoras Ambientales (Múltiples Proyectos)
 
-Preguntas principales:
-1. ¿Cómo hace tu empresa hoy para tener una visión general del estado ambiental de todos los proyectos o concesiones viales que supervisan al mismo tiempo?
-2. ¿Quién dentro de la organización necesita esa visión consolidada y para qué la usa?
-3. Cuéntame cómo es el proceso cuando la gerencia o el cliente estatal pide un reporte del estado de cumplimiento de varios tramos a la vez.
-4. ¿Qué tan fácil o difícil es comparar el desempeño ambiental entre dos proyectos distintos hoy en día?
-5. ¿Han tenido casos en que un problema ambiental en un proyecto pasó desapercibido por no tener visibilidad centralizada? Cuéntame qué pasó.
-6. ¿Cómo deciden a qué proyecto darle prioridad de atención cuando hay varias incidencias o sobrepasos abiertos al mismo tiempo?
-7. ¿Qué información necesitan las áreas de gerencia o dirección para tomar decisiones sobre riesgo regulatorio?
-8. ¿Cómo manejan hoy la relación entre la supervisora ambiental y la constructora cuando ambas trabajan sobre el mismo tramo vial y se requiere validar datos de campo?
-9. ¿Qué impacto ha tenido para la empresa o el proyecto una sanción o infracción ambiental en el pasado (tiempo, dinero, reputación, licitaciones)?
-10. Si tuvieras que justificar internamente una inversión en una herramienta de monitoreo y fiscalización como RoadWatch OS, ¿qué argumentos usarías?
+1. Buen día, ¿podría comentarme su nombre, edad y puesto que desempeña en el rubro de supervisión o consultoría ambiental?
 
-Preguntas complementarias:
+2. En primer lugar, ¿cómo realizan actualmente el seguimiento de los indicadores ambientales de los proyectos que supervisan, como aire, ruido y agua?
 
-11. ¿Cuántas personas de tu organización estarían involucradas en el uso de una herramienta así (roles, cantidad aproximada)?
-12. ¿Cómo es hoy el proceso de onboarding cuando un proyecto o tramo nuevo se suma a la cartera de la empresa?
-13. ¿Qué tan dispuesta estaría tu empresa a pagar una suscripción mensual/anual por una plataforma que resuelva esto, y qué factores pesarían más en esa decisión (precio, cantidad de proyectos, soporte, hardware incluido)?
+3. ¿Qué herramientas utilizan para recibir y compartir las mediciones, fotografías y documentos de los diferentes proyectos?
+
+4. Al supervisar varios proyectos, ¿qué tan complicado es mantener organizada toda la información ambiental?
+
+5. ¿Qué ocurre cuando detectan una medición que podría representar un incumplimiento ambiental?
+
+6. ¿Cómo realizan actualmente el seguimiento de las acciones correctivas después de detectar una incidencia?
+
+7. ¿Qué dificultades encuentran al momento de preparar informes para una auditoría o fiscalización?
+
+8. Entrevistador: ¿Cuál considera que es la principal dificultad al supervisar ambientalmente varios proyectos?
+
+9. Entrevistador: Si pudiera cambiar una sola cosa del proceso actual, ¿qué cambiaría?
+
+10. Entrevistador: ¿Considera útil recibir información ambiental directamente desde sensores instalados en los proyectos?
+
+11. Entrevistador: Finalmente, ¿qué información considera más importante para supervisar correctamente el estado ambiental de los proyectos?
 
 ### 2.2.2 Registro de Entrevistas
 <a id="2-2-2-registro-de-entrevistas"></a>
