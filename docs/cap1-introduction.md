@@ -34,13 +34,13 @@ Consolidarse como la plataforma tecnológica de referencia en América Latina pa
 
 ### 1.1.2. Perfiles de los Miembros del Equipo
 
-| Foto | Apellido y Nombre | Rol / Perfil |
-| :--- | :--- | :--- |
-| | Italo Raul Pancorbo Amorós | |
-| | Sebastian Conde |  |
-| | Sebastian Diaz |  |
-| | [Compañero 4] |  |
-| | Camila Cabrera |  |
+| Foto                                                        | Apellido y Nombre               | Rol / Perfil |
+|:------------------------------------------------------------|:--------------------------------| :--- |
+|                                                             | Italo Raul Pancorbo Amorós      | |
+| ![Sebasthian.png](../assets/images/chapter1/Sebasthian.png) | Sebasthian Alex Conde Huashuayo | Me gusta la programacion y el desarrollo de Software, buscar nuevas soluciones innovadoras y simples para problemas del dia a dia, a travez de buenas practicas  |
+|                                                             | Sebastian Diaz                  |  |
+|                                                             | [Compañero 4]                   |  |
+|                                                             | Camila Cabrera                  |  |
 
 ---
 
