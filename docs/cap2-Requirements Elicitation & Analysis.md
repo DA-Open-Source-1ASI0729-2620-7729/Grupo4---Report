@@ -147,7 +147,103 @@
 ### 2.2.2 Registro de Entrevistas
 <a id="2-2-2-registro-de-entrevistas"></a>
 
-**Segmento 1:**
+### Segmento 1:
+
+
+<br>
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Keler Martín</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Panduro Perez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><img src="../assets/images/chapter2/EvidenciaKeler.jpeg" alt="Evidencia entrevista Keler" width="400"></td>
+  </tr>
+  <tr>
+    <tr>
+  <td>Link</td>
+  <td><a href="https://1drv.ms/v/c/113B281D1AF386CE/IQCjOQL_AoaeSZHjG8hdwrqxAaD3T-ASMCIQkltoW0Mx8QI?e=tux0nT" target="_blank">Ver video</a></td>
+</tr>
+  </tr>
+  <tr>
+    <td>Duración</td>
+    <td>0:00-6:23</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Keler es un residente de obra y jefe de gestión ambiental en una empresa constructora vial, encargado de supervisar el cumplimiento del Plan de Manejo Ambiental en múltiples frentes de trabajo simultáneos. Para el registro de indicadores (como polvo y ruido), las coordinaciones en campo y el envío de evidencias, utiliza una combinación de herramientas fragmentadas que incluyen hojas de Excel, archivos de Word, mensajes de WhatsApp, carpetas compartidas y reportes manuales diferidos. Busca garantizar la continuidad de la obra sin paralizaciones ni sanciones y mantener al día la documentación socioambiental. Sin embargo, enfrenta serias dificultades debido a la falta de visibilidad en tiempo real de lo que ocurre en cada tramo; al depender de mediciones manuales o informes periódicos de laboratorio, suele enterarse tarde de la superación de límites permisibles, muchas veces cuando ya existen quejas de las comunidades o penalizaciones de la supervisión. Además, la dispersión de la información le exige invertir un tiempo excesivo buscando fotos y documentos no etiquetados para consolidar a última hora los expedientes requeridos en auditorías o fiscalizaciones de organismos como el MTC o el OEFA. Keler considera que contar con una plataforma centralizada y conectada a sensores IoT telemáticos que envíen alertas preventivas en tiempo real, tendría un impacto sumamente positivo, ya que le permitiría aplicar medidas de mitigación inmediatas, evitar multas y automatizar la trazabilidad de sus operaciones en campo.</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <tr>
+  <td>Link</td>
+  <td></td>
+</tr>
+  </tr>
+  <tr>
+    <td>Duración</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+### Segmento 2:
+
+<br>
 
 <table>
 <thead>
@@ -192,51 +288,6 @@
   </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #2</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Duración</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
-
-**Segmento 2:**
-
 <table>
 <thead>
   <tr>
