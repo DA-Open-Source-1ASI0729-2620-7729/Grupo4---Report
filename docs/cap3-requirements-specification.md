@@ -97,13 +97,13 @@
 
 El Impact Mapping correspondiente al segmento de empresas constructoras viales permite visualizar la relación entre el objetivo de negocio, la persona representativa, los impactos esperados, los entregables y las historias de usuario asociadas. El objetivo se orienta a reducir el tiempo promedio de respuesta ante desviaciones de parámetros ambientales, mediante la detección oportuna de riesgos, el monitoreo en tiempo real, la generación de alertas tempranas, el seguimiento de acciones correctivas y la centralización de evidencias ambientales trazables.
 
-![Impact Mapping - Segmento 1](../assets/images/chapter3/Impact map Empresas Constructoras Viales.png)
+![Impact Mapping - Segmento 1](<../assets/images/chapter3/Impact map Empresas Constructoras Viales.png>)
 
 ## IMPACT MAPPING 2
 
 El Impact Mapping correspondiente al segmento de empresas supervisoras ambientales y consultoras permite relacionar el objetivo de negocio con las necesidades de fiscalización y auditoría. El objetivo se orienta a disminuir el tiempo requerido para estructurar y validar expedientes de auditoría ambiental, mediante la supervisión centralizada de múltiples proyectos, la identificación de riesgos críticos, la consulta de información histórica inalterable y trazable, la generación automatizada de reportes y la organización de documentación normativa.
 
-![Impact Mapping - Segmento 1](../assets/images/chapter3/Impact map Empresas Constructoras Viales.png)
+![Impact Mapping - Segmento 2](<../assets/images/chapter3/Impact map Empresas Supervisoras Ambientales _ Consultoras.png>)
 
 ### 3.3. Product Backlog
 <a id="3-3-product-backlog"></a>
