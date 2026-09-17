@@ -39,7 +39,7 @@ Consolidarse como la plataforma tecnológica de referencia en América Latina pa
 |                                                             | Italo Raul Pancorbo Amorós      | |
 | ![Sebasthian.png](../assets/images/chapter1/Sebasthian.png) | Sebasthian Alex Conde Huashuayo | Me gusta la programacion y el desarrollo de Software, buscar nuevas soluciones innovadoras y simples para problemas del dia a dia, a travez de buenas practicas  |
 |                                                             | Sebastian Diaz                  |  |
-|                                                             | [Compañero 4]                   |  |
+|                                                             | Piero Francisco Montes Chang                   |Actualmente desarrollo software a nivel empirico para proyectos personales y requerimientos estrategicos, me gusta mucho la lógica y me gustaría profundizar en machine learning|
 |                                                             | Camila Cabrera                  |  |
 
 ---
