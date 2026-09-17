@@ -667,7 +667,7 @@ En esta sesión de Design-Level EventStorming, el equipo profundizó en la arqui
 **Global EventStorming Map**
 
 <div align="center">
-  <img src="" alt="RoadWatch Global Event Storming">
+  <img src="assets/images/Event Storming - EcoRoad - Marco 2 (1).jpg" alt="RoadWatch Global Event Storming">
 </div>
 
 *Leyenda de Elementos Aplicados*
@@ -680,7 +680,7 @@ En esta sesión de Design-Level EventStorming, el equipo profundizó en la arqui
       <b>Command (Azul)</b><br>La intención o acción a ejecutar
     </td>
     <td align="center" style="background-color: #F9A454; color: #000;">
-      <b>Domain Event (Naranja)</b><br>Hecho relevante ocurrido (en pasado)
+      <b>Domain Event (Naranja)</b><br>Hecho relevante ocurrido
     </td>
   </tr>
   <tr>
