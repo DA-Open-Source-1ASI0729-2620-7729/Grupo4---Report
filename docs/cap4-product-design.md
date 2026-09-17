@@ -662,77 +662,72 @@ Wireframe - Executive Profile (Mobile)
 ### 4.6.1. Design-Level EventStorming.
 <a id="4-6-1-design-level-eventstorming"></a>
 
-**Global**
+En esta sesión de Design-Level EventStorming, el equipo profundizó en la arquitectura orientada a eventos de **RoadWatch**. Se identificaron los límites transaccionales exactos (Bounded Contexts) que modularizan el sistema SaaS y el flujo IoT, mapeando la coreografía de eventos que automatiza la respuesta ante infracciones ambientales.
 
+**Global EventStorming Map**
 
+<div align="center">
+  <img src="" alt="RoadWatch Global Event Storming">
+</div>
 
-*Leyenda*
+*Leyenda de Elementos Aplicados*
 <table align="center">
   <tr>
-    <td align="center">
-      Aggregate
+    <td align="center" style="background-color: #FDE181; color: #000;">
+      <b>User / Actor (Amarillo)</b><br>Quien ejecuta la acción
     </td>
-    <td align="center">
-      Command
+    <td align="center" style="background-color: #8CD2F5; color: #000;">
+      <b>Command (Azul)</b><br>La intención o acción a ejecutar
     </td>
-    <td align="center">
-      Domain Event
-    </td>
-    <td align="center">
-      External System
+    <td align="center" style="background-color: #F9A454; color: #000;">
+      <b>Domain Event (Naranja)</b><br>Hecho relevante ocurrido (en pasado)
     </td>
   </tr>
   <tr>
-    <td align="center">
-      Policy
+    <td align="center" style="background-color: #C7ACF3; color: #000;">
+      <b>Policy (Morado)</b><br>Regla de negocio o automatización
+    </td>
+    <td align="center" style="background-color: #8BE78B; color: #000;">
+      <b>Read Model / View (Verde)</b><br>Datos proyectados para el usuario
     </td>
     <td align="center">
-      Question / Risk
-    </td>
-    <td align="center">
-      User Actor
-    </td>
-    <td align="center">
-      View / Read Model
+      <b>Flujo Externo (Flechas)</b><br>Coreografía entre contextos
     </td>
   </tr>
 </table>
 
-**IAM(Identity and Access Management)**
+#### Bounded Contexts Identificados
 
+**1. Subscriptions & Payment Management**
+Gestiona el ciclo de vida comercial del cliente (constructoras o consultoras). Se encarga de la selección de planes SaaS (Base, Pro, Enterprise), validación de pagos y la activación de la suscripción, liberando las políticas de acceso para el uso de la plataforma.
 
+**2. Identity & Access Management (IAM)**
+Administra la seguridad, el onboarding de empresas y el control de acceso basado en roles (RBAC). Asegura que solo ingenieros, técnicos o administradores autorizados puedan interactuar con los proyectos y sensores correspondientes.
 
-**Project Management**
+**3. Project Management**
+Contexto core para la creación y delimitación de los proyectos viales. Aquí los Project Managers definen las coordenadas geográficas de la obra, establecen las líneas base ambientales y determinan los puntos exactos donde se instalará el hardware de monitoreo.
 
+**4. Device & Asset Management (IoT Fleet)**
+Controla el ciclo de vida del hardware físico desplegado en campo. Los técnicos registran, instalan y calibran los sensores. Este módulo detecta caídas de conexión (offline) y expiraciones de calibración, garantizando la fiabilidad de los datos recolectados.
 
+**5. Environmental Monitoring**
+El motor telemétrico principal de RoadWatch. Recibe el flujo continuo de datos de calidad del aire y ruido desde los sensores IoT, normaliza la data y la evalúa contra los umbrales normativos vigentes. Si se excede un límite crítico, emite eventos de alerta inmediatos.
 
-**Task & Collaboration**
+**6. Incident & Mitigation Management**
+Módulo de reacción automatizada. Escucha los eventos críticos del monitoreo ambiental y dispara políticas de creación automática de tickets de incidencia. Gestiona el flujo de trabajo (workflow) para que los responsables ambientales ejecuten y registren las acciones de mitigación correspondientes.
 
+**7. Document & Evidence Management**
+Actúa como la bóveda digital y trazabilidad legal. Exige y almacena la evidencia fotográfica y los formularios firmados tras la mitigación de una incidencia, aplicando políticas de retención y escaneo de seguridad (virus scan) para mantener un *audit trail* inmutable.
 
+**8. Reports & Compliance**
+Consolida la información de todo el sistema para fines de auditoría. Agrega los datos telemétricos crudos y el historial de incidencias cerradas para generar reportes normativos automatizados en PDF y permitir la integración con APIs gubernamentales.
 
-**Governance & Risk**
-
-
-
-**Resource & Capacity**
-
-
-
-**Document Management**
-
-
-
-**Profile Management**
-
-
-
-**System Administration**
-
-
-
-**Analytics & Reporting**
-
-
+#### Arquitectura de Eventos y Coreografía (Relaciones Externas)
+Para que RoadWatch funcione de manera autónoma, los microservicios se comunican asíncronamente mediante *Domain Events*:
+* **Provisioning:** El evento `Subscription Activated` (C1) habilita la `Subscription Limit Policy` en Proyectos (C3). A su vez, `Roles Assigned` (C2) autoriza las interacciones técnicas en el sistema.
+* **IoT Setup:** El evento `Monitoring Points Defined` (C3) es prerrequisito para ejecutar el comando `Install Sensor on Site` (C4), conectando la definición lógica del proyecto con la instalación física.
+* **Motor Reactivo:** El hardware instalado (`Sensor Installed`) inicia la transmisión telemétrica (C5). Cuando el motor detecta una infracción y emite el evento `Critical Normative Limit Exceeded` (C5), este dispara directamente la `Auto-Ticket Generation Policy` en Incidencias (C6), eliminando el factor de error humano.
+* **Trazabilidad Normativa:** El registro de una acción correctiva (`Mitigation Action Logged`, C6) bloquea el cierre del ticket hasta que se cumpla el comando `Upload Photographic Evidence` (C7). Finalmente, el cierre formal alimenta la `Data Aggregation Policy` (C8) para las auditorías.
 
 <div style="text-align: left; max-width: 900px; margin: 0 auto;">
 
