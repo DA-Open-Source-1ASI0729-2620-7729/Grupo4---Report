@@ -36,7 +36,7 @@ Consolidarse como la plataforma tecnológica de referencia en América Latina pa
 
 | Foto                                                        | Apellido y Nombre               | Rol / Perfil |
 |:------------------------------------------------------------|:--------------------------------| :--- |
-|                                                             | Italo Raul Pancorbo Amorós      | |
+| <img src="../assets/images/chapter1/Italo.jpeg" alt="FotoItalo" width="110" width>                                                            | Italo Raul Pancorbo Amorós      | Me considero una persona responsable, aplicada y me gusta aprender cosas nuevas.|
 | ![Sebasthian.png](../assets/images/chapter1/Sebasthian.png) | Sebasthian Alex Conde Huashuayo | Me gusta la programacion y el desarrollo de Software, buscar nuevas soluciones innovadoras y simples para problemas del dia a dia, a travez de buenas practicas  |
 |                                                             | Sebastian Diaz                  |  |
 | ![perfilpiero.jpg](../assets/images/chapter1/perfilpiero.jpg)| Piero Francisco Montes Chang                   |Actualmente desarrollo software a nivel empirico para proyectos personales y requerimientos estrategicos, me gusta mucho la lógica y me gustaría profundizar en machine learning|
