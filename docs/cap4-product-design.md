@@ -667,7 +667,7 @@ En esta sesión de Design-Level EventStorming, el equipo profundizó en la arqui
 **Global EventStorming Map**
 
 <div align="center">
-  <img src="assets/images/EventStorming.jpg" alt="RoadWatch Global Event Storming">
+  <img src="../assets/images/EventStorming.jpg" alt="RoadWatch Global Event Storming">
 </div>
 
 *Leyenda de Elementos Aplicados*
