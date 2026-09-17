@@ -933,26 +933,38 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 
 ## 4.8. Database Design.
 <a id="4-8-database-design"></a>
+El diseño de la base de datos relacional (MySQL) para RoadWatch OS adopta un enfoque de aislamiento por Bounded Context dentro del Monolito Modular, garantizando que cada módulo mantenga la propiedad exclusiva de su esquema y desacoplando persistencias mediante referencias por identificadores UUID.
 
+Características Principales de la Base de Datos
+
+Aislamiento de Módulos: Esquema lógico separado por Bounded Context donde las tablas pertenecientes a un contexto solo son accedidas mediante su propio módulo.
+
+Identificadores Únicos (UUID): Uso de VARCHAR(36) para Primary Keys (PK) y Foreign Keys (FK), evitando dependencias por secuencias numéricas y facilitando integración entre módulos.
+
+Integridad Referencial y 3NF: Aplicación de Tercera Forma Normal (3NF) con restricciones explícitas (PK, FK, UNIQUE, NOT NULL) para asegurar consistencia transaccional.
+
+Campos de Auditoría Estandarizados: Todas las tablas incluyen created_at, updated_at y banderas de estado (status / is_deleted) para trazabilidad legal y soporte de auditorías ambientales.
 
 ### 4.8.1. Database Diagrams.
 <a id="4-8-1-database-diagrams"></a>
 
 
+### Bounded Context 1 - Suscriptions and Payment:
+![Class Diagram - RoadWatch OS](/assets/images/BC1ERD.jpeg)
+### Bounded Context 2 - Identity and Access:
+![Class Diagram - RoadWatch OS](/assets/images/BC2ERD.jpeg)
+### Bounded Context 3 - Project Mangement:
+![Class Diagram - RoadWatch OS](/assets/images/BC3ERD.jpeg)
+### Bounded Context 4 - Device and Asset Mgmt:
+![Class Diagram - RoadWatch OS](/assets/images/BC4ERD.jpeg)
+### Bounded Context 5 - Environmental Monitoring:
+![Class Diagram - RoadWatch OS](/assets/images/BC5ERD.jpeg)
+### Bounded Context 6 - Incident and mitigation:
+![Class Diagram - RoadWatch OS](/assets/images/BC6ERD.jpeg)
+### Bounded Context 7 - Document and Evidence:
+![Class Diagram - RoadWatch OS](/assets/images/BC7ERD.jpeg)
+### Bounded Context 8 - Reports and Compliance:
+![Class Diagram - RoadWatch OS](/assets/images/BC8ERD.jpeg)
 
-|Tabla|Descripcion|
-|-----|-----------|
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+
+
