@@ -698,7 +698,11 @@ Wireframe - Executive Profile (Mobile)
   </tr>
 </table>
 
-**IAM(Identity and Access Management)**
+**Suscriptions and Payment**
+
+
+
+**Identity and Access**
 
 
 
@@ -706,45 +710,41 @@ Wireframe - Executive Profile (Mobile)
 
 
 
-**Task & Collaboration**
+**Device and Asset Mgmt**
 
 
 
-**Governance & Risk**
+**Environmental Monitoring**
 
 
 
-**Resource & Capacity**
+**Incident Mitigation**
 
 
 
-**Document Management**
+**Document and Evidence**
 
 
 
-**Profile Management**
+**Reports and Compliance**
 
 
 
-**System Administration**
 
-
-
-**Analytics & Reporting**
 
 
 
 <div style="text-align: left; max-width: 900px; margin: 0 auto;">
 
 ### 4.6.2. Software Architecture Context Diagram.
-El Diagrama de Contexto representa la vista de más alto nivel de EcoRoad, detallando cómo el sistema interactúa con los usuarios y sistemas externos sin profundizar en detalles técnicos.
+El Diagrama de Contexto representa la vista de más alto nivel de RoadWatch, detallando cómo el sistema interactúa con los usuarios y sistemas externos sin profundizar en detalles técnicos.
 <a id="4-6-2-software-architecture-context-diagram"></a>
 
 #### Sistema Central
 
 
 
-* **EcoRoad**: Solución integral para la gestión y monitoreo ambiental de proyectos de infraestructura vial, orientada a centralizar la información, detectar riesgos ambientales y facilitar el cumplimiento de las normativas.
+* **RoadWatch**: Solución integral para la gestión y monitoreo ambiental de proyectos de infraestructura vial, orientada a centralizar la información, detectar riesgos ambientales y facilitar el cumplimiento de las normativas.
 
 #### Usuarios
 
@@ -782,23 +782,25 @@ El Diagrama de Contexto representa la vista de más alto nivel de EcoRoad, detal
 
 
 
-* Los usuarios (Segmento A y B) interactúan directamente con **EcoRoad**.
-* **EcoRoad** centraliza la información ambiental y gestiona:
+* Los usuarios (Segmento A y B) interactúan directamente con **RoadWatch**.
+* **RoadWatch** centraliza la información ambiental y gestiona:
 
   * Monitoreo de indicadores ambientales.
   * Registro y seguimiento de incidencias.
   * Acciones de mitigación y responsables.
   * Evidencias y trazabilidad de las actividades.
-* **EcoRoad** integra servicios externos para:
+* **RoadWatch** integra servicios externos para:
 
   * Geolocalización mediante servicios de mapas.
   * Consulta de condiciones meteorológicas.
   * Envío de notificaciones y alertas.
-* Los dispositivos **IoT** pueden enviar datos de sensores ambientales a EcoRoad, permitiendo detectar automáticamente condiciones fuera de los parámetros establecidos y generar alertas o incidencias para su atención.
+* Los dispositivos **IoT** pueden enviar datos de sensores ambientales a RoadWatch, permitiendo detectar automáticamente condiciones fuera de los parámetros establecidos y generar alertas o incidencias para su atención.
+
+![Diagrama de Contexto C4 - RoadWatch OS](/assets/images/ContextDiagram.png)
 
 
 ### 4.6.3. Software Architecture Container Diagrams.
-Este nivel desglosa el sistema EcoRoad en aplicaciones y componentes independientes, especificando las tecnologías y responsabilidades principales de cada contenedor que conforma la solución.
+Este nivel desglosa el sistema RoadWatch en aplicaciones y componentes independientes, especificando las tecnologías y responsabilidades principales de cada contenedor que conforma la solución.
 
 Web Application
 
@@ -819,7 +821,7 @@ La aplicación se comunica con el backend mediante peticiones HTTPS hacia la API
 API Application
 
 
-Construida en C# utilizando ASP.NET Core, constituye el núcleo de EcoRoad y centraliza la lógica de negocio y el procesamiento de la información ambiental.
+Construida en C# utilizando ASP.NET Core, constituye el núcleo de RoadWatch y centraliza la lógica de negocio y el procesamiento de la información ambiental.
 
 Este componente se encarga de:
 
@@ -844,12 +846,12 @@ Temperatura.
 Humedad.
 Calidad del agua.
 
-Los datos recopilados son enviados hacia la API Application, donde son procesados y evaluados según los parámetros ambientales establecidos. Cuando se detecta un valor fuera del rango permitido, EcoRoad puede generar automáticamente una alerta e incidencia para su atención.
+Los datos recopilados son enviados hacia la API Application, donde son procesados y evaluados según los parámetros ambientales establecidos. Cuando se detecta un valor fuera del rango permitido, RoadWatch puede generar automáticamente una alerta e incidencia para su atención.
 
 Database
 
 
-Motor de base de datos relacional basado en MySQL, responsable de almacenar de forma persistente la información generada por EcoRoad.
+Motor de base de datos relacional basado en MySQL, responsable de almacenar de forma persistente la información generada por RoadWatch.
 
 Garantiza:
 
@@ -862,17 +864,19 @@ Consulta histórica para la generación de reportes.
 
 La API Application es responsable de gestionar las operaciones de lectura y escritura sobre la base de datos, evitando que la Web Application acceda directamente a ella.
 
+![Diagrama de Contenedores C4 - RoadWatch OS](/assets/images/ContainerDiagram.png)
+
 
 ### 4.6.4. Software Architecture Components Diagrams.
 <a id="4-6-4-software-architecture-components-diagrams"></a>
 
-En el nivel de componentes se detalla la descomposición interna de los contenedores de EcoRoad, mostrando los bloques estructurales que conforman la solución y las relaciones entre ellos. Debido a que la Web Application y la Database pueden ser complementadas mediante diagramas específicos de frontend y base de datos, esta sección pone especial énfasis en el contenedor API Application, donde se concentra la lógica de negocio y el procesamiento de la información ambiental.
+En el nivel de componentes se detalla la descomposición interna de los contenedores de RoadWatch, mostrando los bloques estructurales que conforman la solución y las relaciones entre ellos. Debido a que la Web Application y la Database pueden ser complementadas mediante diagramas específicos de frontend y base de datos, esta sección pone especial énfasis en el contenedor API Application, donde se concentra la lógica de negocio y el procesamiento de la información ambiental.
 
-El diagrama de componentes de la API Application organiza la arquitectura interna de EcoRoad de acuerdo con los principales contextos funcionales del dominio. Cada módulo backend representa un componente encargado de una responsabilidad específica:
+El diagrama de componentes de la API Application organiza la arquitectura interna de RoadWatch de acuerdo con los principales contextos funcionales del dominio. Cada módulo backend representa un componente encargado de una responsabilidad específica:
 
 Project Management Backend: administra los proyectos viales, sus datos generales, ubicaciones, estados y puntos de monitoreo asociados. Permite crear, consultar, actualizar y gestionar la información de los proyectos.
 Environmental Monitoring Backend: procesa y administra los indicadores ambientales registrados en los proyectos, permitiendo consultar mediciones históricas y actuales de variables como calidad del aire, ruido, temperatura, humedad y calidad del agua.
-IoT Integration Backend: gestiona la comunicación entre EcoRoad y los dispositivos IoT instalados en los proyectos. Recibe los datos provenientes de los sensores, valida las mediciones y las incorpora al sistema para su posterior análisis.
+IoT Integration Backend: gestiona la comunicación entre RoadWatch y los dispositivos IoT instalados en los proyectos. Recibe los datos provenientes de los sensores, valida las mediciones y las incorpora al sistema para su posterior análisis.
 Risk & Incident Backend: analiza las mediciones ambientales y las compara con los parámetros establecidos. Cuando identifica condiciones que superan los límites permitidos, genera alertas e incidencias ambientales de manera automática.
 Mitigation Backend: administra las acciones correctivas y medidas de mitigación asociadas a las incidencias. Permite asignar responsables, establecer fechas límite, actualizar estados y realizar el seguimiento hasta la resolución del problema.
 Evidence Backend: gestiona las evidencias relacionadas con inspecciones, incidencias y acciones de mitigación, permitiendo registrar fotografías, documentos y otros archivos que respalden las actividades realizadas.
@@ -895,7 +899,9 @@ El Weather Backend se comunica con el Servicio Meteorológico para obtener infor
 El Notification Backend se integra con el Servicio de Notificaciones para enviar alertas a los responsables de los proyectos.
 Todos los componentes backend pueden reutilizar las capacidades proporcionadas por el Shared Backend, favoreciendo la consistencia, reutilización de código y reducción de duplicidad.
 
-De esta manera, el Component Diagram complementa los diagramas de clases y de base de datos de EcoRoad, mostrando cómo la API Application se divide en componentes coherentes con las funcionalidades principales del dominio y cómo estos colaboran entre sí para implementar el monitoreo ambiental, la detección de riesgos, la gestión de incidencias y las acciones de mitigación dentro de los proyectos viales.
+De esta manera, el Component Diagram complementa los diagramas de clases y de base de datos de RoadWatch, mostrando cómo la API Application se divide en componentes coherentes con las funcionalidades principales del dominio y cómo estos colaboran entre sí para implementar el monitoreo ambiental, la detección de riesgos, la gestión de incidencias y las acciones de mitigación dentro de los proyectos viales.
+
+![Diagrama de Componentes C4 - RoadWatch OS](/assets/images/ComponentDiagram.png)
 
 
 
@@ -905,35 +911,34 @@ De esta manera, el Component Diagram complementa los diagramas de clases y de ba
 ### 4.7.1. Class Diagrams.
 <a id="4-7-1-class-diagrams"></a>
 
+Se centra en la definición de diagramas de clases, la interacción entre objetos y la aplicación de principios.
 
-|Entidad|Descripcion|
-|-------|-----------|
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+### Bounded Context 1 - Suscriptions and Payment:
+![Class Diagram - RoadWatch OS](/assets/images/CD-Suscriptions%20and%20Payment.png)
+### Bounded Context 2 - Identity and Access:
+![Class Diagram - RoadWatch OS](/assets/images/CD-IdentityandAccess.png)
+### Bounded Context 3 - Project Mangement:
+![Class Diagram - RoadWatch OS](/assets/images/CD-ProjectManagement.png)
+### Bounded Context 4 - Device and Asset Mgmt:
+![Class Diagram - RoadWatch OS](/assets/images/CD-DeviceandAssetMgmt.png)
+### Bounded Context 5 - Environmental Monitoring:
+![Class Diagram - RoadWatch OS](/assets/images/CD-EnvironmentalMonitoring.png)
+### Bounded Context 6 - Incident and mitigation:
+![Class Diagram - RoadWatch OS](/assets/images/CD-IncidentandMitigation.png)
+### Bounded Context 7 - Document and Evidence:
+![Class Diagram - RoadWatch OS](/assets/images/CD-DocumentandEvidence.png)
+### Bounded Context 8 - Reports and Compliance:
+![Class Diagram - RoadWatch OS](/assets/images/CD-ReportsandCompliance.png)
+
+
 
 ## 4.8. Database Design.
 <a id="4-8-database-design"></a>
 
+
 ### 4.8.1. Database Diagrams.
 <a id="4-8-1-database-diagrams"></a>
+
 
 
 |Tabla|Descripcion|
