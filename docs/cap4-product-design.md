@@ -459,74 +459,47 @@ Wireframe - Executive Profile (Mobile)
 **Versión Desktop Mockups - Líderes y Jefes de Gestión de Proyectos** 
 
 **El usuario inicia con el Login correspondiente colocando sus datos**
-
-**El siguiente paso es escoger el workspace que se adapta mejor al usuario**
-
-**El usuario puede olvidar su contraseña y decide cambiar su contraseña**
+![Mockup - Login Desktop](/assets/images/desktop/Login.png)
 
 **El usuario entra y lo primero que se observa es el Home de la aplicación web**
-
-**Después de presionar Apply Optimization aparece el mensaje Optimization Applied Successfully**
-
-**El usuario se dirige a la sección de su perfil donde puede ver sus datos**
-
-**El usuario desplega la sección Team Board en la cual se observa la función Operativa**
+![Mockup - Workspace Selection Desktop](/assets/images/desktop/workspace-selection.png)
 
 **El usuario despliega la sección Reports donde puede exportar diferentes proyectos**
+![Mockup - Funciones Desktop](/assets/images/desktop/Funcion.png)
 
 **El usuario despliega la sección ChatHub donde puede ver los canales de sus compañeros**
+![Mockup - Compañeros Desktop](/assets/images/desktop/Parners.png)
 
 **El usuario despliega la sección My Projects donde puede contemplar sus diversos proyectos**
+![Mockup - Lista-Proyecto Desktop](/assets/images/desktop/Lista-Proyecto.png)
 
-**Aquí el usuario puede ir a Team Heatmap de un proyecto y ver el Resource Management**
+**El usuario accede al formulario de registro de un nuevo residente, completando datos personales, de verificación, contacto, ubicación y contacto de emergencia**
 
-**El usuario también puede ver los Quick Reports en la plataforma**
+![Mockup - New Resident Desktop](/assets/images/desktop/new-resident.png)
 
-**El usuario despliega la sección Budgets y contempla la función Executive Health Summary**
+**El usuario visualiza la lista de residentes registrados, donde puede asignar habitación, ver detalles, otorgar acceso a familiares y ver medicaciones**
 
-**El usuario despliega la sección Meetings y en ella puede ver los Meetings y Agreements**
+![Mockup - Residents List Desktop](/assets/images/desktop/residents-list.png)
 
-**El usuario puede exportar minutos de reuniones en los formatos visibles**
+**El usuario selecciona un residente específico de la lista para gestionar sus acciones asociadas**
 
-**El usuario se dirige a Schedule New Meeting para programar alguna reunión**
+![Mockup - Resident Selected Desktop](/assets/images/desktop/resident-selected.png)
 
+**El usuario accede a la sección Assign Room para seleccionar una habitación disponible para el residente**
 
-**Versión Desktop Mockups - Empresas Medianas y Grandes con Múltiples Portafolios**
+![Mockup - Assign Room Empty Desktop](/assets/images/desktop/assign-room-empty.png)
 
-**El usuario inicia con el Login correspondiente colocando sus datos**
+**El usuario selecciona la habitación disponible del listado desplegable**
 
-**El siguiente paso es escoger el workspace que se adapta mejor al usuario**
+![Mockup - Assign Room Selected Desktop](/assets/images/desktop/assign-room-selected.png)
 
-**El usuario puede olvidar su contraseña y decide cambiar su contraseña**
+**El usuario regresa a la lista de residentes y verifica que la habitación fue asignada correctamente**
 
-**El usuario decide ir a la sección de Projects y seleccionar su Portafolio**
+![Mockup - Residents List Updated Desktop](/assets/images/desktop/residents-list-updated.png)
 
-**El usuario se dirige a la seccipin de Resource Planning donde mira el Team Bandwidth Analysis**
+**El usuario accede a la sección Staff y edita la información de un miembro del personal, incluyendo datos personales, de verificación, contacto, ubicación y contactos de emergencia**
 
-**El usuario también se puede dirigir a la sección de Team Optimization para ver los resultados**
-
-**El usuario entra y lo primero que se observa es el Home de la aplicación web**
-
-**El usuario se dirige a la sección de Portfolio Results y contempla su análisis**
-
-**El usuario se dirige a la sección de Risk & Compliance donde contempla el Heatmap**
-
-**El usuario se dirige a Action Plans para la mitigación de riesgos**
-
-**El usuario se dirige a la sección de analytics donde aprecia el Advanced Analytics**
-
-**El usuario puede compartir su perfil a través de su configuración**
-
-**El usuario se dirige a la sección de su Perfil y puede ver su información personal**
-
-**El usuario se dirige a la herramienta de Settings**
-
-**Puede dirigirse a la configuración de integraciones**
-
-**Puede dirigirse a la configuración de los miembros del equipo**
-
-**Puede dirigirse a la configuración de notificaciones**
-
+![Mockup - Edit Staff Member Desktop](/assets/images/desktop/edit-staff-member.png)
 
 **Versión Mobile Mockups - Líderes y Jefes de Gestión de Proyectos** 
 
