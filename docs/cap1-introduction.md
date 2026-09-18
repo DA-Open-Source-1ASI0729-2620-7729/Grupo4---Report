@@ -34,13 +34,13 @@ Consolidarse como la plataforma tecnológica de referencia en América Latina pa
 
 ### 1.1.2. Perfiles de los Miembros del Equipo
 
-| Foto                                                        | Apellido y Nombre               | Rol / Perfil |
-|:------------------------------------------------------------|:--------------------------------| :--- |
-| <img src="../assets/images/chapter1/Italo.jpeg" alt="FotoItalo" width="110" width>                                                            | Italo Raul Pancorbo Amorós      | Me considero una persona responsable, aplicada y me gusta aprender cosas nuevas.|
-| ![Sebasthian.png](../assets/images/chapter1/Sebasthian.png) | Sebasthian Alex Conde Huashuayo | Me gusta la programacion y el desarrollo de Software, buscar nuevas soluciones innovadoras y simples para problemas del dia a dia, a travez de buenas practicas  |
-|                                                             | Sebastian Diaz                  |  |
-| ![perfilpiero.jpg](../assets/images/chapter1/perfilpiero.jpg)| Piero Francisco Montes Chang                   |Actualmente desarrollo software a nivel empirico para proyectos personales y requerimientos estrategicos, me gusta mucho la lógica y me gustaría profundizar en machine learning|
-|                                                             | Camila Cabrera                  |  |
+| Foto | Apellido y Nombre | Rol / Perfil |
+|:---|:---|:---|
+| <img src="../assets/images/chapter1/Italo.jpeg" alt="Italo" width="120" height="120" style="object-fit: cover;"> | Italo Raul Pancorbo Amorós | Me considero una persona responsable, aplicada y me gusta aprender cosas nuevas. |
+| <img src="../assets/images/chapter1/Sebasthian.png" alt="Sebasthian" width="120" height="120" style="object-fit: cover;"> | Sebasthian Alex Conde Huashuayo | Me gusta la programación y el desarrollo de software, buscando soluciones innovadoras mediante buenas prácticas. |
+| <img src="../assets/images/chapter1/Diaz.jpg" alt="Sebastian Diaz" width="120" height="120" style="object-fit: cover;"> | Sebastian Gabriel Díaz De la Cruz | Estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones digitales y el trabajo colaborativo. |
+| <img src="../assets/images/chapter1/perfilpiero.jpg" alt="Piero" width="120" height="120" style="object-fit: cover;"> | Piero Francisco Montes Chang | Desarrollo software para proyectos personales y tengo interés en lógica y machine learning. |
+| <img src="../assets/images/chapter1/cabrera-camila.png" alt="Camila Cabrera" width="120" height="120" style="object-fit: cover;"> | Camila Celeste Cabrera Sotelo | Estudiante de Ingeniería de Software, interesada en aplicaciones, usabilidad y nuevas tecnologías. |
 
 ---
 
