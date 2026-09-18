@@ -311,7 +311,8 @@ Durante el Sprint 1 se realizó el despliegue del Landing Page de RoadWatch OS e
 
 5. **Automatización de actualizaciones:** Cada push a la rama `main` actualiza automáticamente el sitio sin configuración adicional.
 
-*(Insertar capturas de pantalla del proceso de configuración en GitHub Pages y del sitio desplegado)*
+![Configuración y despliegue en GitHub Pages](../assets/images/chapter5/Step1.png)
+![Configuración y despliegue en GitHub Pages 2](../assets/images/chapter5/Step2.png)
 
 URL del Landing Page desplegado:  
 https://da-open-source-1asi0729-2620-7729.github.io/RoadWatch-OS-LandingPage/
