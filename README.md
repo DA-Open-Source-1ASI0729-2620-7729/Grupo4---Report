@@ -24,10 +24,10 @@ Proyecto<br>
 | Código      | Apellidos y Nombres              |
 |-------------|----------------------------------|
 | U202418029  | Pancorbo Amorós, Italo Raul      |
-| U202  |Cabrera Sotelo, Camila Celeste  |
+| U202412462  |Cabrera Sotelo, Camila Celeste  |
 | U202  |Conde Huashuayo, Sebasthian Alex |
 | U202 |Montes Chang, Piero Francisco |
-| U202 |Diaz De La Cruz, Sebastian Gabriel |
+| U202410421 |Diaz De La Cruz, Sebastian Gabriel |
 
 **Período 202620**  
 
@@ -44,10 +44,11 @@ Proyecto<br>
 
 | Versión | Fecha | Autores | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **AV1** | | | |
+| **AV1** | 18/09/2026 | Pancorbo Amorós, Italo Raul<br>Cabrera Sotelo, Camila Celeste<br>Conde Huashuayo, Sebasthian Alex<br>Montes Chang, Piero Francisco<br>Diaz De La Cruz, Sebastian Gabriel | Creación inicial del archivo desde cero y elaboración de la estructura base del **Final Project Documentation Report**. Se incorporaron la carátula, registro de versiones, contenido, Student Outcome, capítulos de Introducción, Requirements Elicitation & Analysis, Requirements Specification, Product Design y Product Implementation, Validation & Deployment, incluyendo la configuración del entorno, gestión del código fuente, guía de estilos, despliegue, implementación de la Landing Page, Sprint 1, Conclusiones, Bibliografía y Anexos. |
 | **TB1** | | | |
 | **AV2** | | | |
 | **TB2** | | | |
+
 
 <div style="page-break-after: always;"></div>
 
