@@ -2,50 +2,79 @@
 ## 4.1. Style Guidelines.
 <a id="4-1-style-guidelines"></a>
 
+El diseño se enfoca en una interfaz intuitiva que garantiza la seguridad y escalabilidad del sistema siendo capaz de manejar múltiples proyectos con alta disponibilidad y un control de acceso estrictamente definido por roles.
+
 ### 4.1.1. General Style Guidelines.
 <a id="4-1-1-general-style-guidelines"></a>
 
-**Colores**
+En este apartado se detallan las decisiones de estilo que definen la identidad visual de RoadWatch OS, una plataforma web y móvil orientada al monitoreo ambiental y la gestión de proyectos de infraestructura. Las decisiones relacionadas con branding, paleta cromática, tipografía, espaciado y lenguaje buscan transmitir precisión técnica, sostenibilidad, claridad operativa y confianza.
 
-- **Azul primario – #1E40AF:**
+### Colores:
 
-- **Gris azulado secundario – #475569:**
+![Colours - RoadWatch OS](/assets/images/Colours.png)
+La paleta de colores de RoadWatch OS fue seleccionada para reflejar la integración entre el desarrollo de infraestructura vial y la preservación ambiental, garantizando legibilidad y jerarquía visual:
 
-- **Marrón acento – #882D00:**
+Verde Esmeralda Primario (#23A277): Simboliza sostenibilidad, cumplimiento ambiental y estados óptimos. Se utiliza en acciones primarias (botones de confirmación, accesos directos), estados activos e indicadores de éxito.
 
-- **Gris neutro – #64748B:**
+Azul Pizarra Oscuro (#1E3844): Transmite solidez, control técnico e infraestructura. Se aplica en contenedores destacados, tarjetas de información principal, encabezados oscuros y textos de alta jerarquía.
 
-- **Escalas de color:**
+Fondo Crema Suave (#F6F5EE): Utilizado como fondo general de la aplicación. Sustituye al blanco puro para reducir la fatiga visual durante jornadas extensas de trabajo de campo o monitoreo continuo.
 
+Mostaza / Amarillo Acento (#E5A93C): Aporta contraste e indicación de estado. Se emplea en etiquetas de categoría (badges como OUR PLATFORM), advertencias preventivas y llamadas de atención moderadas.
 
-**Tipografía**
+Gris Neutro y Bordes (#E2E8F0 / #64748B): Se utiliza en divisores, contornos de tarjetas, campos de texto de formularios y texto secundario para estructurar el contenido sin recargar la interfaz.
 
-
-
-**Branding**
-
-
-
-**Espaciado**
+### Tipografía:
 
 
+Se seleccionó la tipografía Rubik como fuente principal para toda la plataforma debido a sus trazos redondeados, estética moderna y alta legibilidad en pantallas de distintas resoluciones.
 
-**Dimensiones para el tono de comunicación y lenguaje aplicado**
+La jerarquía tipográfica se estructura mediante variaciones de peso (Regular, Medium, Bold) y tamaño: los títulos y métricas principales emplean pesos Bold para captar la atención de inmediato, mientras que las etiquetas secundarias y textos de lectura utilizan pesos Regular y Medium con interlineado amplio.
+
+### Branding:
+El branding de RoadWatch OS refleja la supervisión limpia y moderna de activos viales. El logotipo y los componentes de interfaz adoptan un enfoque minimalista con bordes marcadamente suavizados, transmitiendo cercanía, orden y rigurosidad técnica.
+
+### Espaciado y Layout:
+La interfaz utiliza un sistema basado en tarjetas independientes (cards) apiladas sobre el fondo crema. Se prioriza el uso de espacio negativo (whitespace) para evitar la saturación visual de datos ambientales complejos. Las tarjetas y botones cuentan con esquinas redondeadas (border-radius pronunciado) y márgenes padding consistentes para garantizar una experiencia limpia y responsiva en dispositivos móviles y de escritorio.
+
+### Tono de comunicación y lenguaje aplicado:
+
+El tono de voz en RoadWatch OS es profesional, preventivo y directo. Combina precisión técnica para el registro de métricas de telemetría con un lenguaje accesible que facilita la respuesta rápida de los oficiales ambientales ante alertas e incidentes en obra.
 
 
+Además, se han considerado los siguientes aspectos clave en el diseño de RoadWatch:
 
-- **Consistencia:**
+**Consistencia:**
 
-- **Navegación:**
+ La coherencia en el diseño es esencial para brindar una experiencia uniforme y eficiente en la vía. Todos los elementos visuales e interactivos de RoadWatch mantienen una línea gráfica clara, lo que permite que los usuarios se familiaricen rápidamente con la aplicación y la utilicen de manera intuitiva, especialmente en entornos de movilidad donde se requiere consultar información en cuestión de segundos.
 
-- **Accesibilidad:**
+**Navegación:**
 
+ La estructura de navegación ha sido pensada para ser ágil, intuitiva y organizada. Los usuarios pueden acceder fácilmente a secciones como el mapa en tiempo real, alertas de tráfico, reporte de incidentes y estado de las rutas, lo que permite ahorrar tiempo y facilita la toma de decisiones rápidas y seguras al desplazarse.
 
-**Elementos de Diseño**
+**Accesibilidad:**
 
+La plataforma fue diseñada para adaptarse a distintos dispositivos y contextos de uso, desde teléfonos móviles hasta pantallas integradas y entornos vehiculares. RoadWatch ofrece una interfaz clara, elementos con alto nivel de visibilidad y navegación simplificada, permitiendo a los usuarios interactuar con la aplicación sin distracciones innecesarias.
 
+**Elementos de Diseño:**
 
-**Principios de Diseño**
+Además de los lineamientos definidos en cuanto a colores, tipografía y branding, en el diseño visual de RoadWatch se han considerado diversos elementos fundamentales del diseño gráfico que contribuyen a mejorar la experiencia del usuario y a consolidar una identidad visual clara y moderna.
+
+Uno de los elementos más importantes es la línea, la cual se utiliza para organizar la interfaz mediante la separación de capas en el mapa, tarjetas de eventos y formularios de reporte. Su aplicación permite estructurar la información vial de manera fluida, evitando la saturación visual. Por otro lado, el color cumple una función crítica de comunicación y seguridad, ya que permite diferenciar al instante el nivel de congestión, estados de alerta e incidentes en la vía. La paleta utilizada, basada en tonos oscuros y neutros con acentos de alta visibilidad (como amarillos, naranjas y rojos de advertencia), refuerza la legibilidad tanto de día como de noche.
+
+En relación con el tamaño, este se aplica de manera jerárquica para destacar elementos clave como advertencias de peligro, botones de reporte rápido y direcciones principales. Los componentes de mayor tamaño captan la atención del usuario en momentos críticos, mientras que los datos secundarios mantienen dimensiones más discretas. En cuanto a la textura, se opta por un enfoque limpio y minimalista mediante fondos uniformes y mapas vectoriales simplificados, lo que aporta claridad visual sin interferir con la lectura de las rutas.
+
+El espacio juega un papel fundamental para garantizar la usabilidad en movimiento. Se emplean márgenes amplios y zonas de toque generosas entre botones e íconos, lo que facilita una navegación precisa y evita pulsaciones erróneas. Asimismo, el uso del contraste (brillo y valor) permite establecer jerarquías visuales inmediatas, diferenciando claramente entre alertas críticas, texto sobre el mapa y elementos interactivos.
+
+Finalmente, en cuanto a las formas, se priorizan estructuras geométricas simples y bordes suavizados para botones, tarjetas de notificación e íconos universales de tráfico. Estas decisiones de diseño refuerzan la percepción de una herramienta tecnológica moderna, eficiente y orientada a la seguridad vial.
+
+**Principios de Diseño:**
+
+En cuanto a los principios de diseño, el contraste se utiliza para destacar elementos críticos dentro de la aplicación, como alertas de accidentes, condiciones peligrosas en la ruta o botones de acción rápida (CTA). Esto permite que la información relevante sea identificable de un solo vistazo, priorizando la seguridad del usuario. Asimismo, la repetición de patrones de color (verde para tráfico fluido, rojo para detenciones o peligros) e iconografía estándar contribuye a generar consistencia en toda la interfaz, ayudando a responder con rapidez sin necesidad de interpretación compleja.
+
+Por otro lado, la alineación cumple un rol fundamental en la organización del contenido, ya que las listas de incidentes, configuraciones y paneles de ruta siguen una estructura simétrica y limpia. De igual manera, el principio de proximidad agrupa de forma lógica los datos relacionados (como tiempo estimado de llegada, distancia e intensidad del tráfico, o tipo de incidente con su ubicación exacta), lo que favorece una lectura inmediata de las condiciones del camino.
+
+Estos principios integran un sistema de diseño funcional enfocado en el objetivo central de RoadWatch: proporcionar monitoreo vial preciso y navegación segura mediante una experiencia de usuario rápida, clara e intuitiva.
 
 
 
@@ -57,76 +86,87 @@
 
 ## 4.2. Information Architecture.
 <a id="4-2-information-architecture"></a>
-
+Se enfoca en que la información crítica del estado vial y del tráfico (alertas en tiempo real, niveles de congestión e incidentes) sea siempre el punto de partida de la navegación.
 
 ### 4.2.1. Organization Systems.
 <a id="4-2-1-organization-systems"></a>
+En la plataforma RoadWatch, se emplea principalmente la organización jerárquica para resaltar la información crítica relacionada con el estado de las vías y la movilidad urbana. Elementos como niveles de congestión, alertas de accidentes en vivo, obstrucciones de vía y tiempos estimados de retraso se presentan con mayor jerarquía visual dentro del mapa interactivo y los paneles de control. Esta priorización permite que los usuarios identifiquen de forma inmediata las rutas críticas o situaciones de riesgo que requieren atención o un cambio de trayecto.
 
+Asimismo, se aplica una organización secuencial en procesos que requieren una guía paso a paso, como el reporte rápido de incidentes viales, la planificación de rutas alternativas, la configuración de zonas de alerta personalizadas o la generación de informes de movilidad. Estos flujos siguen una progresión lógica y controlada para reducir distracciones, evitar errores en el ingreso de datos y facilitar la experiencia de uso, especialmente en entornos donde la rapidez es prioritaria.
+
+En cuanto a los esquemas de categorización, RoadWatch no utiliza una organización alfabética como criterio principal. En su lugar, se emplea una organización cronológica para el seguimiento de eventos viales históricos, como la evolución del tráfico durante el día, el registro de incidentes resueltos y los tiempos de desplazamiento promedio. Adicionalmente, el contenido se clasifica según el rol del usuario, permitiendo que conductores, operadores del centro de control de tráfico y autoridades o entidades de emergencia accedan a vistas, niveles de detalle y funcionalidades adaptadas a sus responsabilidades.
 
 
 ### 4.2.2. Labeling Systems.
 <a id="4-2-2-labeling-systems"></a>
 
-**Landing Page**
+A continuación, se presenta el sistema de etiquetado (labeling system) diseñado para la plataforma RoadWatch. Este sistema busca representar la información de forma clara y consistente, utilizando etiquetas cortas, precisas y alineadas al lenguaje de la movilidad urbana y la seguridad vial, con el objetivo de minimizar la carga cognitiva y mantener coherencia visual con la guía de diseño establecida.
 
-* 
+Landing Page
 
-* 
+Inicio: Sección principal de presentación de RoadWatch. Comunica la propuesta de valor y permite el acceso a la plataforma.
 
-* 
+Características: Descripción de las funcionalidades clave del sistema, como monitoreo en tiempo real, mapa de congestión y asistencia de rutas.
 
-* 
+Beneficios: Explicación de los beneficios estratégicos para conductores, administradores de flotas y entidades de tránsito.
 
-* 
+Casos de Uso: Ejemplos de aplicación de RoadWatch en ciudades inteligentes, logística urbana y gestión de emergencias.
 
-**Aplicación Web - Project Managers y PMO Leads**
+Contacto: Canal para solicitudes de información, alianzas institucionales o soporte técnico.
 
-* 
+Aplicación Web / Móvil – Conductores y Usuarios
 
-* 
+Mapa: Vista principal con alertas de tráfico en tiempo real, congestión y puntos de interés.
 
-* 
+Rutas: Planificación, guardado y optimización de trayectos frecuentes.
 
-* 
+Incidentes: Listado y mapa de eventos reportados (accidentes, obras, cierres de vía, peligros).
 
-* 
+Reportar: Acceso rápido para registrar incidentes o condiciones adversas en la ruta.
 
-* 
+Alertas: Configuración de notificaciones preventivas por zona o tramo vial.
 
-* 
+Histórico: Registro de desplazamientos realizados e informes de tiempos de traslado.
 
-**Aplicación Web – Stakeholders**
+Configuración: Gestión de perfil, preferencias de navegación y notificaciones.
 
-* 
+Aplicación Web – Operadores de Tráfico y Administradores
 
-* 
+Resumen Ejecutivo: Vista general del estado de la red vial y niveles globales de fluidez.
 
-* 
+Monitoreo en Tiempo Real: Panel central de control con cámaras, sensores y eventos activos.
 
-* 
+Alertas Críticas: Notificaciones prioritarias sobre bloqueos masivos o accidentes graves.
+
+Reportes de Movilidad: Generación y descarga de analíticas de densidad vehicular e informes de tráfico.
 
 
 ### 4.2.3. SEO Tags and Meta Tags.
 <a id="4-2-3-seo-tags-meta-tags"></a>
 
+Para asegurar que la plataforma RoadWatch sea indexable por los motores de búsqueda y presente un buen rendimiento orgánico, se han configurado los siguientes meta tags técnicos:
 
+Title Tag: en html:
+`<title>RoadWatch | Monitoreo Vial y Alertas de Tráfico en Tiempo Real</title>`
 
-* **Title Tag:** en html: 
+Description: en html:
+`<meta name="description" content="Optimice sus desplazamientos y la gestión vial con RoadWatch. Plataforma para la centralización, monitoreo en tiempo real y reporte de incidentes de tráfico.">`
 
-* **Description:** en html:
+Keywords: en html:
+`<meta name="keywords" content="RoadWatch, Monitoreo Vial, Tráfico en Tiempo Real, Alertas de Tránsito, Seguridad Vial, Mapas Interactivos, Movilidad Urbana">`
 
-* **Keywords:** en html:
+Open Graph (Optimización para redes sociales):
 
-* **Open Graph (Optimización para redes sociales):**
-    * 
+`<meta property="og:title" content="RoadWatch: Movilidad inteligente y monitoreo vial en tiempo real">`
 
-    * 
+`<meta property="og:description" content="Manténgase informado sobre las condiciones del tráfico, evite congestiones y reporte incidentes al instante con RoadWatch.">`
 
-    * 
+`<meta property="og:image" content="[https://roadwatch.com/assets/og-preview.png](https://roadwatch.com/assets/og-preview.png)">`
 
-    * 
+`<meta property="og:url" content="[https://roadwatch.com](https://roadwatch.com)">`
 
-* **Robots:** en html:
+Robots: en html:
+`<meta name="robots" content="index, follow">`
 
 
 ### 4.2.4. Searching Systems.
@@ -134,33 +174,46 @@
 
 
 
-1. **Barra de Búsqueda Global:**
-    * 
-    * 
-    * 
-2. **Filtro de Avances:**
-    * **Indicadores de Salud:**
-    * **Estado Operativo:**
-    * **Prioridad y Carga:**
-3. **Búsqueda Documental:**
+El sistema de búsqueda está diseñado para reducir el tiempo de localización de rutas e incidentes viales:
 
+Barra de Búsqueda Global: Implementada en la parte superior del Mapa / Dashboard. Permite la búsqueda rápida por:
+
+Nombre de vía, avenida, calle o código de ruta.
+
+Puntos de interés, distritos o zonas urbanas.
+
+Código o tipo de incidente reportado.
+
+Filtro de Eventos y Tráfico: En los módulos de mapa e incidentes, los usuarios pueden segmentar la información mediante:
+
+Nivel de Congestión: Filtrado por semáforos viales (Verde: fluido, Amarillo: moderado, Rojo: congestión severa).
+
+Tipo de Evento: (Accidente, Obras en vía, Cierre temporal, Clima adverso).
+
+Severidad e Impacto: Según el nivel de retraso en la circulación.
+
+Búsqueda Documental / Histórica: Capacidad de búsqueda dentro del repositorio central para localizar informes históricos de tráfico, PDFs de reportes generados anteriormente y datos estadísticos mediante palabras clave en el título y metadatos.
 
 ### 4.2.5. Navigation Systems.
 <a id="4-2-5-navigation-systems"></a>
 
+La navegación se estructura para que el usuario nunca esté a más de tres clics o toques de la información que necesita:
 
+Navegación Global (Menú Lateral / Principal): Es la barra persistente con acceso directo a los pilares del sistema:
 
-1. **Navegación Global (Menú Lateral):**
-    * **Dashboard:**
-    * **Proyectos:**
-    * **Reportes:**
-    * **Riesgos:**
+Mapa: Monitoreo en tiempo real y estado del tráfico.
 
-2. **Navegación de Contexto:** 
+Rutas: Planificación y optimización de trayectos.
 
-3. **Navegación Local:** 
+Incidentes: Registro, validación y consulta de eventos viales.
 
-4. **Acciones Rápidas:** 
+Reportes: Módulo de generación de informes y analítica de movilidad.
+
+Navegación de Contexto: Sistema que facilita la orientación del usuario dentro de subsecciones (ej. Ciudad > Sector Sur > Av. Benavides > Colisión).
+
+Navegación Local: Se utilizan pestañas para navegar entre el Mapa Interactivo, la Lista de Incidentes, los Sensores/Cámaras en Vivo y el Repositorio de Reportes.
+
+Acciones Rápidas: Botones flotantes (FAB) y accesos directos para el envío inmediato de alertas de emergencia o reporte rápido de incidentes, condicionados por los permisos del usuario.
 
 
 ## 4.3. Landing Page UI Design.
