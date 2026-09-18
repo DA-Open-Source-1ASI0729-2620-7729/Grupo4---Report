@@ -214,11 +214,11 @@ Para el Sprint 1, los aspectos de trabajo se organizan en torno a las secciones 
 
 | Team Member | GitHub Username            | Hero & Navbar | Plans Section | Features Section | Contact Form | Deployment & Config |
 |:---|:---------------------------|:---:|:---:|:---:|:---:|:---:|
-| Cabrera Sotelo, Camila Celeste | *(username)*               | L | C | | | C |
+| Cabrera Sotelo, Camila Celeste | *whcamm*               | L | C | | | C |
 | Conde Huashuayo, Sebasthian Alex | *SebasthianCH*             | C | | L | C | C |
-| Diaz De La Cruz, Sebastian Gabriel | *(username)*               | C | | C | L | |
-| Montes Chang, Piero Francisco | *(username)*               | | L | C | | C |
-| Pancorbo Amorós, Italo Raul | *(username)*               | | C | C | | L |
+| Diaz De La Cruz, Sebastian Gabriel | *tipaso07*               | C | | C | L | |
+| Montes Chang, Piero Francisco | *chang*               | | L | C | | C |
+| Pancorbo Amorós, Italo Raul | *pancorboitalo-design*               | | C | C | | L |
 
 *L = Líder | C = Colaborador*
 
@@ -277,13 +277,8 @@ Al finalizar el Sprint 1, se logró desplegar la primera versión funcional del 
 
 La experiencia es consistente entre el segmento de empresas constructoras y supervisoras ambientales, y los call-to-action de cada segmento redirigen al usuario a la vista correspondiente en la Web Application (actualmente apuntando a la URL de la futura aplicación).
 
-A continuación, se presentan capturas de las principales vistas implementadas:
-
-*(Insertar screenshots de las secciones del Landing Page desplegado)*
-
-> 🎬 **Video de navegación del Landing Page (Sprint 1):**  
-> URL: *(insertar URL del video en Microsoft Stream)*  
-> Nomenclatura: `upc-pre-202620-1asi0729-7729-vianexo-product-navigation-sprint-1`
+**Video de navegación del Landing Page (Sprint 1):**  
+URL: *https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQC42lSycdIVS4-Oi0OhpG9EATYxm0X6Y7foFXAAdKn9XwU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RUyDKY*  
 
 ---
 
@@ -318,8 +313,8 @@ Durante el Sprint 1 se realizó el despliegue del Landing Page de RoadWatch OS e
 
 *(Insertar capturas de pantalla del proceso de configuración en GitHub Pages y del sitio desplegado)*
 
-> 🌐 **URL del Landing Page desplegado:**  
-> 
+URL del Landing Page desplegado:  
+https://da-open-source-1asi0729-2620-7729.github.io/RoadWatch-OS-LandingPage/
 
 ---
 
