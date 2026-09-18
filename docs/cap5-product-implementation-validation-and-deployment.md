@@ -327,7 +327,13 @@ La estrategia de colaboración adoptada fue la siguiente: cada miembro trabajó 
 
 A continuación, se presentan los analíticos de colaboración del repositorio del Landing Page:
 
-*(Insertar capturas de los analíticos de GitHub: gráfico de commits por contribuidor, pulse graph y network graph)*
+![Landing Insights](../assets/images/chapter5/landingInsights.jpg)
+
+**Figura X. Resultados e insights de la Landing Page.**
+
+![Report Insights](../assets/images/chapter5/reportInsights.jpg)
+
+**Figura X. Resultados e insights del reporte.**
 
 | Miembro del equipo | Contribuciones principales en el Sprint |
 |:---|:---|
