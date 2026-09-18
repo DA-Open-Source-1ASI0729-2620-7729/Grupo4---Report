@@ -167,37 +167,35 @@ Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente 
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td></td>
+    <td>Becker</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td></td>
+    <td>Junior Caisahuana</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td></td>
+    <td>23</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td></td>
+    <td>Rímac</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td></td>
+    <td><img src="../assets/images/chapter2/EvidenciaBecker.jpg" alt="Evidencia entrevista Becker" width="400"></td>
   </tr>
   <tr>
-    <tr>
-  <td>Link</td>
-  <td></td>
-</tr>
+    <td>Link</td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412462_upc_edu_pe/IQA9cO_PRBJ_Sq6Tgr_t7IVSAVcPJytqUE5tl3gnlsr-RjE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mWKUwf" target="_blank">Ver video</a></td>
   </tr>
   <tr>
     <td>Duración</td>
-    <td></td>
+    <td>0:00 - 2:31</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td></td>
+    <td>Becker es jefe de proyectos en una empresa constructora y se encarga de coordinar diferentes frentes de obra, revisar avances y asegurar el cumplimiento de los requerimientos técnicos y ambientales de los proyectos. Para realizar el seguimiento de indicadores ambientales como ruido, polvo y calidad del agua, su equipo efectúa mediciones en campo y registra los resultados mediante hojas de Excel, informes, fotografías, correos electrónicos, carpetas compartidas y mensajes de WhatsApp. Sin embargo, al gestionar varios frentes de manera simultánea, enfrenta dificultades para mantener toda la información organizada y localizar rápidamente las evidencias necesarias, debido a que los datos se encuentran dispersos en diferentes canales y formatos. Asimismo, la identificación de riesgos ambientales depende en gran medida de que el personal responsable detecte oportunamente una posible superación de los límites permitidos y la comunique al equipo, lo que puede retrasar la aplicación de medidas preventivas. Becker considera que contar con sensores y alertas automáticas permitiría anticiparse a situaciones críticas y ejecutar acciones de mitigación antes de que ocurra un incumplimiento o una observación por parte de la supervisión. Además, destaca la necesidad de contar con una plataforma centralizada en la que pueda visualizar el estado de cada frente de obra, sus mediciones, alertas, incidencias, acciones pendientes y evidencias, facilitando una respuesta más rápida y una mejor organización de la información ante futuras supervisiones.</td>
   </tr>
 </tbody>
 </table>
@@ -251,47 +249,6 @@ Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente 
   </tr>
 </tbody>
 </table>
-<table>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #1</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Duración</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -302,35 +259,35 @@ Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente 
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td></td>
+    <td>Guadalupe</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td></td>
+    <td>Kim Chang</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td></td>
+    <td>44</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td></td>
+    <td>San Isidro</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td></td>
+    <td><img src="../assets/images/chapter2/EvidenciaChang.jpg" alt="Evidencia entrevista Guadalupe" width="400"></td>
   </tr>
   <tr>
     <td>Link</td>
-    <td></td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAzGWBr_180TaX5r2Ce2iHmAa0uzBUXWMWKYnJheWzFmdM?e=lzPTKe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
   </tr>
   <tr>
     <td>Duración</td>
-    <td></td>
+    <td>0:00 - 5:34</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td></td>
+    <td>Guadalupe desempeña funciones de supervisión y coordinación, realizando seguimiento a diferentes actividades y proyectos, revisando información, verificando el cumplimiento de procesos y coordinando con los responsables cuando se detectan observaciones o incidencias. Para el seguimiento ambiental utiliza principalmente reportes, hojas de cálculo, informes, correos electrónicos, carpetas compartidas y WhatsApp, lo que genera que la información se encuentre distribuida en diversos canales. Esta fragmentación dificulta localizar rápidamente mediciones, documentos, fotografías, incidencias y acciones correctivas, especialmente cuando se supervisan varios proyectos de manera simultánea. Además, señala que el seguimiento suele ser reactivo debido a que las mediciones no siempre están disponibles de forma inmediata y que el control de incidencias abiertas y acciones pendientes requiere una revisión manual. Guadalupe considera que una plataforma centralizada con alertas preventivas permitiría mejorar significativamente este proceso, especialmente si incorpora estados visuales como verde, amarillo y rojo para identificar rápidamente situaciones normales, de atención o críticas. Asimismo, considera útil integrar sensores para obtener información continua y facilitar la supervisión remota, sin reemplazar completamente las visitas presenciales. Destaca también la importancia de conservar un historial completo de mediciones, incidencias, responsables, acciones correctivas y evidencias para auditorías o fiscalizaciones. Finalmente, considera que una solución ideal debería ofrecer una vista general de todos los proyectos, visualización geográfica mediante mapas, alertas automáticas y generación de reportes descargables en PDF o Excel, reduciendo así el trabajo manual y facilitando la toma de decisiones.</td>
   </tr>
 </tbody>
 </table>
