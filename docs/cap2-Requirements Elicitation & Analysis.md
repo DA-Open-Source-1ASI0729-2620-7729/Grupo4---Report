@@ -12,7 +12,7 @@
 
 | **Categoría** | **RoadWatch OS (VíaNexo)** | **SiteHive** | **Sonitus Systems** | **Autodesk Construction Cloud** |
 | :--- | :---: | :---: | :---: | :---: |
-| **Cabecera** | <img src="../assets/images/chapter2/RoadWatchLogo.png" alt="Logo de RoadWatch OS" width="110"/> | <img src="../assets/images/chapter2/SiteHiveLogo.png" alt="Logo de SiteHive" width="110"/> | <img src="../assets/images/chapter2/SonitusSystemsLogo.png" alt="Logo de Sonitus Systems" width="110"/> | <img src="../assets/images/chapter2/AutodeskCCLogo.png" alt="Logo de Autodesk Construction Cloud" width="110"/> |
+| **Cabecera** | <img src="../assets/images/chapter2/RoadWatchLogo.jpeg" alt="Logo de RoadWatch OS" width="110"/> | <img src="../assets/images/chapter2/SiteHiveLogo.png" alt="Logo de SiteHive" width="110"/> | <img src="../assets/images/chapter2/SonitusSystemsLogo.png" alt="Logo de Sonitus Systems" width="110"/> | <img src="../assets/images/chapter2/AutodeskCCLogo.png" alt="Logo de Autodesk Construction Cloud" width="110"/> |
 | **Perfil** | | | | |
 | **Overview** | Plataforma HaaS/SaaS integrada con red propia de nodos IoT en comodato para monitoreo ambiental (aire, ruido, agua) y gestión preventiva en obras viales. | Plataforma SaaS australiana especializada en monitoreo ambiental continuo (ruido, polvo, vibración) para construcción y minería. | Proveedor global especializado en instrumentación y monitores IoT de nivel de ruido y calidad del aire para monitoreo ambiental. | Suite integral de software basada en la nube para la gestión de proyectos de construcción, flujos de trabajo BIM y control documental. |
 | **Ventaja competitiva (valor al cliente)** | Modelo HaaS sin inversión inicial de hardware, rol de árbitro neutral con telemetría inalterable y motor de mitigación preventiva para constructoras y supervisoras. | Automatización del procesamiento de datos ambientales de campo con algoritmos de reconocimiento de eventos de ruido mediante IA. | Equipos de medición de alta robustez, precisión instrumental y cumplimiento estricto de estándares internacionales de calibración sonora. | Integración nativa y madura con modelos BIM (Revit/Civil 3D), gestión de calidad global y amplia adopción corporativa en el sector. |
@@ -32,52 +32,15 @@
 ### 2.1.2. Estrategias y tácticas frente a competidores
 <a id="2-1-2-estrategias-y-tacticas-frente-a-competidores"></a>
 
-1. **Especialización en gestión de PMO:**
+Para posicionar a RoadWatch frente a la competencia de aplicaciones de navegación de consumo masivo (como Waze o Google Maps) y plataformas tradicionales de analítica de tráfico corporativo (como INRIX o TomTom Enterprise), se implementan las siguientes estrategias y tácticas competitivas:
 
-    Estrategia:
+Estrategia de Accesibilidad y Datos Integrados (Modelo SaaS / DaaS): A diferencia de los costosos sistemas de gestión de tráfico que exigen la instalación de infraestructura propia (sensores físicos) o licencias corporativas prohibitivas, RoadWatch ofrece un modelo flexible basado en la nube (Software as a Service / Data as a Service). Al combinar inteligencia colectiva (crowdsourcing) con la integración de datos abiertos e IoT, se elimina la barrera financiera de entrada para empresas de logística medianas, operadores de transporte y municipalidades, democratizando el acceso a la analítica de movilidad avanzada.
 
+Enfoque Operativo y de Seguridad (Más allá de la Navegación Pasiva): Mientras que las aplicaciones de consumo masivo actúan meramente como visores pasivos que sugieren rutas al conductor individual, RoadWatch integra el monitoreo vial directamente con un flujo completo de respuesta operativa para organizaciones: detección de incidente o congestión severa → alerta automática a la central → creación de ticket de contingencia → asignación de ruta alternativa para la flota (o aviso a servicios de emergencia) → registro del evento y normalización de la vía.
 
-    Táctica:
+Gestión Multi-Flota y Control Zonal Centralizado: Se despliega una arquitectura pensada para que las autoridades de tránsito, administradores de flotas logísticas y operadores de emergencias gestionen múltiples rutas, unidades vehiculares o sectores urbanos simultáneamente. Todo esto se realiza desde una única cuenta centralizada y un dashboard geolocalizado unificado, optimizando el control y la toma de decisiones rápidas de los supervisores de ruta y despachadores.
 
-
-2. **Enfoque en la experiencia del usuario:**
-
-    Estrategia:
-
-
-    Táctica:
-
-
-3. **Centralización de la información:**
-
-    Estrategia:
-
-
-    Táctica:
-
-
-4. **Enfoque en la toma de decisiones estratégicas:**
-
-    Estrategia:
-
-
-    Táctica:
-
-
-5. **Estrategia de adopción y crecimiento:**
-
-    Estrategia:
-
-
-    Táctica:
-
-
-6. **Integración con herramientas existentes:**
-
-    Estrategia:
-
-
-    Táctica:
+Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente en gerentes de logística, directores de operaciones de transporte y autoridades de movilidad urbana. Esta estrategia se apoya en alianzas clave con gremios de transporte (cámaras de comercio, gremios de carga) y entidades gubernamentales (como el MTC, ATU o SUTRAN), demostrando con datos una reducción directa en los costos operativos por tiempos muertos, mejora en los tiempos de respuesta ante emergencias y disminución de los riesgos de siniestralidad vial.
 
 
 ## 2.2 Entrevistas
@@ -487,45 +450,48 @@ Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de
 ### 2.3.2. User Task Matrix
 <a id="2-3-2-user-task-matrix"></a>
 
-**Segmento 1**
+En esta sección se desarrolla el User Task Matrix, en el cual se identifican las principales actividades que realizan los User Personas de **RoadWatch**: los **Administradores de Flotas Logísticas** (Segmento 1) y los **Operadores de Centros de Control de Tráfico** (Segmento 2). 
+
+Estas tareas corresponden a acciones habituales dentro de su dinámica operativa, necesarias para alcanzar sus objetivos de movilidad y seguridad, sin depender necesariamente de una solución digital unificada. Este análisis nos permite comprender cómo monitorean y gestionan las vías actualmente, así como detectar ineficiencias y oportunidades donde RoadWatch puede generar valor.
+
+**Segmento 1: Administradores de Flotas Logísticas (ej. Carlos)**
 
 | Task | Frequency | Importance |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| Seguimiento en tiempo real de la ubicación de las unidades | Daily | Critical |
+| Planificación y reasignación de rutas por tráfico pesado | Daily | High |
+| Evaluación de tiempos de llegada para cumplir con clientes | Daily | Critical |
+| Revisión de historial de rutas y tiempos muertos | Weekly | Medium |
+| Coordinación con conductores (avisos de peligros en la vía) | Daily | High |
+| Gestión de contingencias (averías, accidentes de la flota) | Occasionally | High |
+| Reporte de cumplimiento de entregas y eficiencia de ruta | Weekly | Medium |
+| Actualización manual del estado de las vías (grupos de chat) | Constant | High |
 
 **Análisis**
 
-- 
+- **Foco en la Optimización de Tiempos:** La alta frecuencia y criticidad del seguimiento diario y la reasignación de rutas confirman que el éxito operativo del Administrador de Flotas depende de la visibilidad constante sobre las condiciones del tráfico para evitar retrasos.
+- **Conflicto de Eficiencia:** Existe una clara contradicción entre la necesidad de "garantizar entregas a tiempo" y la dependencia de la actualización manual (vía WhatsApp o radio) con los conductores. Esta última tarea actúa como un cuello de botella que consume tiempo y no permite anticiparse al tráfico.
+- **Prioridad Estratégica:** La matriz revela que su valor principal no es solo logístico, sino comercial y financiero: alinear la eficiencia de la ruta con la satisfacción del cliente final y la reducción de costos operativos (combustible y horas hombre).
 
-- 
+---
 
-- 
-
-**Segmento 2**
+**Segmento 2: Operadores de Centros de Control de Tráfico (ej. Elena)**
 
 | Task | Frequency | Importance |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| Monitorear el estado de la red vial en múltiples sectores | Constant | Critical |
+| Detectar y verificar incidentes graves (accidentes, bloqueos) | Daily | Critical |
+| Coordinar con servicios de emergencia y patrullas de campo | Constant | High |
+| Supervisar el impacto de obras viales o eventos masivos | Weekly | Medium |
+| Consolidar información de congestión para toma de decisiones | Biweekly | High |
+| Emitir alertas preventivas sobre vías cerradas o peligros | Daily | Critical |
+| Revisar reportes ciudadanos o de otras fuentes fragmentadas | Constant | High |
 
 **Análisis**
 
-- 
-
-- 
-
-- 
+- **De la Reacción a la Estrategia:** Las tareas con frecuencia Constante/Diaria e importancia Crítica (Monitoreo, Detección de Incidentes y Alertas) mantienen al operador en un estado "reactivo". Centralizar y automatizar la detección de incidentes en RoadWatch permitirá que pasen de ser "apagadores de incendios" a estrategas preventivos de la movilidad.
+- **Vacío Tecnológico Peligroso:** El hecho de que la "Detección de incidentes" sea crítica, pero muchas veces dependa de fuentes fragmentadas o cámaras no integradas, revela un punto de dolor enorme. Las alertas geolocalizadas y automáticas son la funcionalidad "gancho" que asegura la adopción indispensable de la plataforma.
+- **Desconexión entre Detección y Acción:** Existe una brecha entre la detección del incidente y la coordinación con emergencias. Al utilizar sistemas separados (mapas en una pantalla, radios/teléfonos en otra), el reporte histórico de la ciudad nunca refleja con exactitud los tiempos reales de respuesta. Integrar esto es clave para RoadWatch.
 
 ### 2.3.3. User Journey Mapping
 <a id="2-3-3-user-journey-mapping"></a>
