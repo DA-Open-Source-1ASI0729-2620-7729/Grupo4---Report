@@ -214,145 +214,307 @@ Navegación de Contexto: Sistema que facilita la orientación del usuario dentro
 Navegación Local: Se utilizan pestañas para navegar entre el Mapa Interactivo, la Lista de Incidentes, los Sensores/Cámaras en Vivo y el Repositorio de Reportes.
 
 Acciones Rápidas: Botones flotantes (FAB) y accesos directos para el envío inmediato de alertas de emergencia o reporte rápido de incidentes, condicionados por los permisos del usuario.
-
-
 ## 4.3. Landing Page UI Design.
 <a id="4-3-landing-page-ui-design"></a>
 
+En esta sección se presenta la propuesta de diseño de interfaz de usuario de la Landing Page, desarrollada a partir de la arquitectura de información previamente definida y de las necesidades identificadas en los usuarios.
+
+La propuesta busca ofrecer una experiencia clara, intuitiva y accesible, organizando la información de acuerdo con su nivel de importancia. Para ello, se consideran principios de jerarquía visual, consistencia, proximidad, simplicidad y diseño inclusivo.
+
+Asimismo, se han desarrollado versiones para **Desktop Web Browser** y **Mobile Web Browser**, adaptando la distribución de los componentes de acuerdo con el tamaño de pantalla.
+
+---
 
 ### 4.3.1. Landing Page Wireframe.
 <a id="4-3-1-landing-page-wireframe"></a>
 
-**LADING PAGE WEB**
+Los wireframes permiten definir la estructura, distribución y jerarquía de los principales elementos de la Landing Page antes de incorporar los estilos visuales finales.
 
+La propuesta ha sido desarrollada para versiones Desktop y Mobile, manteniendo la misma arquitectura de información y adaptando la disposición de los elementos según el dispositivo utilizado.
 
+#### LANDING PAGE WEB
 
-**Barra de Navegación**:
+La versión Desktop aprovecha el espacio horizontal disponible para presentar los contenidos de manera amplia y ordenada.
 
-**Título Principal**:
+**Barra de Navegación**:  
+Ubicada en la parte superior de la interfaz, permite acceder a las principales secciones de la Landing Page.
 
-**Texto**:
+**Título Principal**:  
+Presenta la propuesta de valor principal del producto mediante un mensaje breve y de alta jerarquía visual.
 
-**Llamados a la Acción**:
+**Texto**:  
+Complementa el título principal explicando de forma resumida el propósito de la solución.
 
-**Elemento Visual**:
+**Llamados a la Acción**:  
+Orientan al usuario hacia las principales acciones disponibles dentro de la plataforma.
+
+**Elemento Visual**:  
+Refuerza visualmente la propuesta de valor presentada en el Hero Section.
+
+![Wireframe Hero Desktop](../assets/images/heroDesktop.png)
+
+**Figura X. Wireframe del Hero Section – Desktop Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
 
 **Sección de Pilares de Gestión**:
-- **Pilar 1**:
-- **Pilar 2**:
-- **Pilar 3**:
 
-**Contenido**:
+Los pilares permiten comunicar los principales aspectos que sustentan la propuesta del producto.
 
-**Flujo de Onboarding**:
+- **Pilar 1**: Presenta el primer aspecto clave de la solución.
+- **Pilar 2**: Representa el segundo eje de valor.
+- **Pilar 3**: Completa la propuesta mediante el tercer eje de gestión.
 
-- 1:
-- 2:
-- 3:
+**Contenido**:  
+Cada pilar se organiza mediante bloques visuales diferenciados, facilitando su comprensión.
 
-**Logotipos**:
+![Wireframe Funcionalidades Desktop](../assets/images/funcionalidadesDesktop.png)
 
-**Pie de Página**:
+**Figura X. Wireframe de funcionalidades – Desktop Web Browser.**  
+**Fuente:** Elaboración propia.
 
+---
 
-**LADING PAGE MOBILE**
+**Planes**:
 
+La sección de planes presenta las distintas opciones disponibles dentro del producto y facilita la comparación de sus principales características.
 
+![Wireframe Planes Desktop](../assets/images/planesDesktop.png)
 
-**Cabecera y Navegación**:
+**Figura X. Wireframe de planes – Desktop Web Browser.**  
+**Fuente:** Elaboración propia.
 
-**Headline**:
+---
 
-**Imagen de Soporte**:
+**Equipo**:
 
+La sección de equipo permite presentar a los integrantes vinculados con el proyecto y reforzar la confianza hacia la solución.
 
-1. **Pilares de Gestión**:
+![Wireframe Equipo Desktop](../assets/images/equipo.png)
 
-2. **Beneficios Enumerados**:
+**Figura X. Wireframe de equipo – Desktop Web Browser.**  
+**Fuente:** Elaboración propia.
 
-3. **Sección de Autoridad Técnica**:
+---
 
+#### LANDING PAGE MOBILE
 
-**Flujo de Usuario y Conversión**:
+La versión Mobile conserva la arquitectura de información definida para Desktop, pero reorganiza los componentes principalmente en una disposición vertical.
 
-**Testimonios**:
+**Cabecera y Navegación**:  
+La navegación se simplifica para adaptarse al espacio disponible en dispositivos móviles.
 
-**Logos de Respaldo**:
+**Headline**:  
+El título principal mantiene su jerarquía visual, adaptando su tamaño al ancho de pantalla.
 
-**Cierre**:
+**Imagen de Soporte**:  
+El recurso visual se adapta proporcionalmente al dispositivo móvil.
 
-**Newsletter**:
+![Wireframe Hero Mobile](../assets/images/hero.png)
 
+**Figura X. Wireframe del Hero Section – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+**Acerca del Proyecto**:
+
+Esta sección presenta de forma resumida el propósito del proyecto y la necesidad que busca resolver.
+
+![Wireframe Acerca del Proyecto](../assets/images/AcercaDelProyecto.png)
+
+**Figura X. Wireframe de Acerca del Proyecto – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+**Beneficios y Pilares de Gestión**:
+
+Los beneficios y pilares se organizan verticalmente para facilitar la lectura y mantener una estructura clara.
+
+![Wireframe Beneficios Mobile](../assets/images/beneficios.png)
+
+**Figura X. Wireframe de beneficios – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+**Funcionalidades**:
+
+Las funcionalidades principales se presentan mediante componentes independientes y distribuidos verticalmente.
+
+![Wireframe Funcionalidades Mobile](../assets/images/funcionalidades.png)
+
+**Figura X. Wireframe de funcionalidades – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+**Cómo Funciona**:
+
+Esta sección presenta de manera secuencial el proceso de uso de la solución, facilitando la comprensión del flujo de usuario.
+
+![Wireframe Cómo Funciona Mobile](../assets/images/ComoFunciona.png)
+
+**Figura X. Wireframe de Cómo Funciona – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+**Equipo y Planes**:
+
+Las secciones de equipo y planes se adaptan a una estructura vertical, permitiendo revisar cada bloque de contenido de manera independiente.
+
+![Wireframe Equipo y Planes Mobile](../assets/images/equipo%20y%20planes.png)
+
+**Figura X. Wireframe de Equipo y Planes – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
+
+---
+
+#### Principios de Diseño Aplicados
+
+La propuesta aplica jerarquía visual, proximidad, consistencia y simplicidad para facilitar la comprensión de la información y mantener patrones reconocibles durante la navegación.
+
+Desde la perspectiva del diseño inclusivo, se consideran tamaños adecuados para elementos interactivos, separación entre componentes, organización visual clara y una estructura que no depende únicamente del color para transmitir información.
+
+---
+
+#### Arquitectura de Información
+
+La información se organiza siguiendo un recorrido progresivo:
+
+1. Hero Section.
+2. Acerca del Proyecto.
+3. Pilares de Gestión.
+4. Beneficios.
+5. Funcionalidades.
+6. Cómo Funciona.
+7. Planes.
+8. Equipo.
+
+Este orden permite presentar la información de lo general a lo específico y facilitar una navegación intuitiva.
+
+---
 
 ### 4.3.2. Landing Page Mock-up.
 <a id="4-3-2-landing-page-mock-up"></a>
 
-**LADING PAGE MOCK-UP WEB**
+Los mock-ups representan la propuesta visual de alta fidelidad de la Landing Page. En esta etapa se incorporan colores, tipografías, iconografía, componentes, espaciados y demás elementos establecidos dentro del Design System.
 
+#### LANDING PAGE MOCK-UP WEB
 
+La versión Web mantiene la estructura definida previamente en los wireframes y aplica la identidad visual final del producto.
 
-**Barra de Navegación**:
+**Barra de Navegación**:  
+Mantiene una estructura clara y consistente con el Design System.
 
-**Título Principal**:
+**Título Principal**:  
+Utiliza la jerarquía tipográfica establecida para destacar la propuesta de valor.
 
-**Cuerpo de Texto**:
+**Cuerpo de Texto**:  
+Presenta una composición legible y mantiene un adecuado contraste con el fondo.
 
-**Llamados a la Acción**:
+**Llamados a la Acción**:  
+Utilizan los estilos y colores definidos para diferenciar acciones principales y secundarias.
 
-**Elemento Visual Principal**:
+**Elemento Visual Principal**:  
+Refuerza la identidad de la solución dentro del Hero Section.
 
 **Sección de Pilares de Gestión**:
-- **Pilar 1**:
-- **Pilar 2**:
-- **Pilar 3**:
+- **Pilar 1**: Primer eje principal de la propuesta.
+- **Pilar 2**: Segundo eje de gestión.
+- **Pilar 3**: Tercer eje de gestión.
 
 **Sección de Transformación y Beneficios**:
-- **01. Control**:
-- **02. Alineación**:
-- **03. Comunicación**:
-- **04. Datos**:
+- **01. Control**
+- **02. Alineación**
+- **03. Comunicación**
+- **04. Datos**
 
-**Testimonios**:
+**Testimonios**:  
+Refuerzan la confianza y validación de la propuesta.
 
-**Logotipos**:
+**Logotipos**:  
+Representan organizaciones, tecnologías o entidades relacionadas con la solución.
 
-**Final**:
+**Cierre**:  
+Presenta nuevamente la propuesta de valor y un llamado a la acción.
 
-**Newsletter**:
+**Newsletter**:  
+Permite registrar información de contacto de usuarios interesados.
 
-**Pie de Página**:
+**Pie de Página**:  
+Organiza enlaces secundarios, información de contacto y elementos legales.
 
+---
 
-**LADING PAGE MOCK-UP MOBILE**
+#### LANDING PAGE MOCK-UP MOBILE
 
+La versión Mobile conserva la identidad visual y los componentes establecidos para Desktop, adaptando su distribución a dispositivos de menor tamaño.
 
+![Landing Page Mock-up Mobile](../assets/images/LandingMockupMobile.png)
 
-**Header y Navegación**:
+**Figura X. Mock-up de la Landing Page – Mobile Web Browser.**  
+**Fuente:** Elaboración propia.
 
-**Título (H1)**:
-**Texto**:
+**Header y Navegación**:  
+Se utiliza una navegación simplificada y adaptada al espacio disponible.
 
-**Opciones**:
+**Título (H1)**:  
+Mantiene la jerarquía principal, adaptando el tamaño tipográfico al dispositivo.
 
-**Elemento Visual**:
+**Texto**:  
+Se ajusta para favorecer la lectura en pantallas pequeñas.
+
+**Opciones**:  
+Los elementos interactivos mantienen suficiente separación para facilitar la interacción táctil.
+
+**Elemento Visual**:  
+Se adapta proporcionalmente al ancho disponible.
 
 **Cuerpo de Contenidos**:
-1. **Pilares de Gestión**:
-2. **Beneficios Enumerados (01-04)**:
-3. **Autoridad y Respaldo**:
 
-**Onboarding en Pasos**:
+1. **Pilares de Gestión**: Se presentan verticalmente.
+2. **Beneficios Enumerados (01-04)**: Mantienen una lectura secuencial.
+3. **Autoridad y Respaldo**: Refuerza la confianza hacia la solución.
 
-**Testimonios**:
+**Onboarding en Pasos**:  
+Los pasos se muestran uno debajo del otro, respetando el orden del flujo.
 
-**Logos de Respaldo**:
+**Testimonios**:  
+Se adaptan a componentes compatibles con navegación móvil.
 
-**Cierre**:
+**Logos de Respaldo**:  
+Mantienen una correcta visualización dentro del ancho disponible.
 
-**Newsletter**:
+**Cierre**:  
+Incluye el mensaje final y el llamado a la acción principal.
 
-**Footer Organizado**:
+**Newsletter**:  
+Presenta campos y botones adaptados a interacción táctil.
 
+**Footer Organizado**:  
+Los contenidos se reorganizan verticalmente para mantener una lectura clara.
+
+---
+
+#### Aplicación del Design System
+
+Los mock-ups aplican los criterios definidos dentro del Design System para mantener consistencia visual entre las diferentes secciones y dispositivos.
+
+Se consideran:
+
+- Paleta cromática definida para el producto.
+- Jerarquía tipográfica para títulos, subtítulos y textos.
+- Estilos consistentes para botones.
+- Uso uniforme de iconografía.
+- Espaciados y márgenes coherentes.
+- Componentes reutilizables.
+- Adaptación responsive.
+
+De esta manera, la propuesta mantiene una identidad visual consistente y facilita una experiencia uniforme tanto en Desktop como en Mobile.
 
 ## 4.4. Web Applications UX/UI Design.
 <a id="4-4-web-applications-ux-ui-design"></a>
