@@ -200,6 +200,48 @@ Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente 
 </tbody>
 </table>
 
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jaime</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Ronceros</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>38</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Chorrillos</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><img src="../assets/images/chapter2/EvidenciaJaime.jpg" alt="Evidencia entrevista Jaime" width="400"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDMrm1dTpBKQIp0LJuhOQPqAcATYsKr9jOZ-jhzBrSptDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nC841P" target="_blank">Ver video</a></td>
+  </tr>
+  <tr>
+    <td>Duración</td>
+    <td>0:00 - 4:38</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Jaime participa en la gestión y seguimiento ambiental de proyectos de construcción vial, donde es necesario supervisar simultáneamente distintos frentes de obra y verificar el cumplimiento de los indicadores ambientales establecidos para cada proyecto. Actualmente, las mediciones relacionadas con factores como calidad del aire, ruido y agua se realizan en campo y posteriormente son registradas en hojas de cálculo, formatos e informes, mientras que las evidencias y coordinaciones se distribuyen entre herramientas como Excel, correo electrónico, WhatsApp y carpetas compartidas. Esta forma de trabajo genera dificultades para mantener la información organizada, actualizada y asociada correctamente a cada tramo, fecha y punto de monitoreo, especialmente cuando se gestionan varios frentes al mismo tiempo. Ante la detección de valores cercanos o superiores a los límites ambientales permitidos, el personal responsable debe comunicar la incidencia y coordinar medidas de mitigación, como incrementar el riego de las vías, controlar la velocidad de los vehículos, modificar horarios de actividades o identificar equipos que estén generando niveles elevados de ruido. Sin embargo, este proceso depende principalmente de la detección y comunicación oportuna por parte del personal. Jaime considera que una plataforma centralizada permitiría visualizar en un solo lugar las mediciones, incidencias, responsables, acciones de mitigación y evidencias de todos los frentes de obra. Asimismo, considera beneficioso incorporar sensores y alertas automáticas que permitan identificar anticipadamente cuándo un indicador se aproxima a un límite normativo, facilitando una respuesta preventiva antes de que se produzca un incumplimiento. También destaca la importancia de conocer el valor actual de cada indicador, el límite permitido, su evolución, la ubicación del punto de monitoreo y las incidencias pendientes con sus respectivos responsables, lo que contribuiría a mejorar la toma de decisiones y reducir el riesgo de observaciones, sanciones o paralizaciones.</td>
+  </tr>
+</tbody>
+</table>
+
 <br>
 
 ### Segmento 2:
@@ -301,35 +343,35 @@ Estrategia Comercial B2B / B2G Dirigida: La prospección se enfoca directamente 
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td></td>
+    <td>Guillermo</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td></td>
+    <td>Llanos</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td></td>
+    <td>28</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td></td>
+    <td>Santiago de Surco</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td></td>
+    <td><img src="../assets/images/chapter2/EvidenciaGuillermo.jpg" alt="Evidencia entrevista Guillermo" width="400"></td>
   </tr>
   <tr>
     <td>Link</td>
-    <td></td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAa6Wi1mjFZT5H0oqBz-c7bASPxmtXKCORbRvL66ru_8GA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Cpf84c" target="_blank">Ver video</a></td>
   </tr>
   <tr>
     <td>Duración</td>
-    <td></td>
+    <td>0:00 - 5:36</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td></td>
+    <td>Guillermo participa en actividades relacionadas con la supervisión y seguimiento ambiental de diferentes proyectos, donde es necesario revisar mediciones, informes, evidencias y observaciones para verificar el cumplimiento de los compromisos ambientales establecidos. Actualmente, el seguimiento de indicadores como calidad del aire, ruido y agua se realiza mediante los registros generados por cada proyecto, complementados con informes de los responsables ambientales y verificaciones realizadas en campo. Para gestionar esta información se utilizan principalmente hojas de Excel, correos electrónicos, documentos PDF, carpetas compartidas y aplicaciones de mensajería como WhatsApp. Sin embargo, al supervisar varios proyectos simultáneamente, la información puede encontrarse distribuida en diferentes formatos y ubicaciones, lo que dificulta mantener un historial organizado y obtener rápidamente una visión general del estado ambiental de cada proyecto. Cuando se identifica una medición que podría representar un incumplimiento, se verifica su correspondencia con el punto de monitoreo y periodo evaluado, se compara con los límites aplicables y, de ser necesario, se comunica la observación al responsable para solicitar la implementación de medidas correctivas. El seguimiento de estas acciones suele realizarse manualmente mediante matrices, correos, reuniones y evidencias como fotografías, documentos o nuevas mediciones. Guillermo considera que centralizar la información en una sola plataforma permitiría consultar las mediciones actuales e históricas, incidencias, acciones correctivas y evidencias de diferentes proyectos de una manera más eficiente. Asimismo, considera útil obtener información directamente desde sensores para contar con una visión más continua de los indicadores ambientales, siempre que se garantice la calibración de los equipos, la confiabilidad de los datos y su trazabilidad. Además, destaca la importancia de visualizar la ubicación de los puntos de monitoreo, los valores permitidos, la evolución de los indicadores y el estado de las observaciones pendientes, facilitando así la fiscalización, la elaboración de informes y la toma de decisiones durante la supervisión ambiental.</td>
   </tr>
 </tbody>
 </table>
