@@ -254,7 +254,6 @@ Refuerza visualmente la propuesta de valor presentada en el Hero Section.
 ![Wireframe Hero Desktop](../assets/images/heroDesktop.png)
 
 **Figura X. Wireframe del Hero Section – Desktop Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -272,7 +271,6 @@ Cada pilar se organiza mediante bloques visuales diferenciados, facilitando su c
 ![Wireframe Funcionalidades Desktop](../assets/images/funcionalidadesDesktop.png)
 
 **Figura X. Wireframe de funcionalidades – Desktop Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -283,7 +281,6 @@ La sección de planes presenta las distintas opciones disponibles dentro del pro
 ![Wireframe Planes Desktop](../assets/images/planesDesktop.png)
 
 **Figura X. Wireframe de planes – Desktop Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -294,7 +291,6 @@ La sección de equipo permite presentar a los integrantes vinculados con el proy
 ![Wireframe Equipo Desktop](../assets/images/equipo.png)
 
 **Figura X. Wireframe de equipo – Desktop Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -314,7 +310,6 @@ El recurso visual se adapta proporcionalmente al dispositivo móvil.
 ![Wireframe Hero Mobile](../assets/images/hero.png)
 
 **Figura X. Wireframe del Hero Section – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -325,7 +320,6 @@ Esta sección presenta de forma resumida el propósito del proyecto y la necesid
 ![Wireframe Acerca del Proyecto](../assets/images/AcercaDelProyecto.png)
 
 **Figura X. Wireframe de Acerca del Proyecto – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -336,7 +330,6 @@ Los beneficios y pilares se organizan verticalmente para facilitar la lectura y 
 ![Wireframe Beneficios Mobile](../assets/images/beneficios.png)
 
 **Figura X. Wireframe de beneficios – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -347,7 +340,6 @@ Las funcionalidades principales se presentan mediante componentes independientes
 ![Wireframe Funcionalidades Mobile](../assets/images/funcionalidades.png)
 
 **Figura X. Wireframe de funcionalidades – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -358,8 +350,6 @@ Esta sección presenta de manera secuencial el proceso de uso de la solución, f
 ![Wireframe Cómo Funciona Mobile](../assets/images/ComoFunciona.png)
 
 **Figura X. Wireframe de Cómo Funciona – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
-
 ---
 
 **Equipo y Planes**:
@@ -369,7 +359,6 @@ Las secciones de equipo y planes se adaptan a una estructura vertical, permitien
 ![Wireframe Equipo y Planes Mobile](../assets/images/equipo%20y%20planes.png)
 
 **Figura X. Wireframe de Equipo y Planes – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 ---
 
@@ -457,7 +446,6 @@ La versión Mobile conserva la identidad visual y los componentes establecidos p
 ![Landing Page Mock-up Mobile](../assets/images/LandingMockupMobile.png)
 
 **Figura X. Mock-up de la Landing Page – Mobile Web Browser.**  
-**Fuente:** Elaboración propia.
 
 **Header y Navegación**:  
 Se utiliza una navegación simplificada y adaptada al espacio disponible.
